@@ -1,0 +1,344 @@
+\hypertarget{class_a_a_b_b_node}{}\section{A\+A\+B\+B\+Node Class Reference}
+\label{class_a_a_b_b_node}\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+
+
+{\ttfamily \#include $<$A\+A\+B\+B\+Node.\+h$>$}
+
+
+
+Collaboration diagram for A\+A\+B\+B\+Node\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_a_a_b_b_node__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_a_a_b_b_node_1_1_bounding_box}{Bounding\+Box}
+\item 
+struct \hyperlink{struct_a_a_b_b_node_1_1_x_y_z}{X\+YZ}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_a_a_b_b_node_ab44974b730878548779dcc724b8a5be7}{A\+A\+B\+B\+Node} ()
+\item 
+virtual \hyperlink{class_a_a_b_b_node_a9836982140490a8e86a9822dbc0d53e6}{$\sim$\+A\+A\+B\+B\+Node} ()
+\item 
+void \hyperlink{class_a_a_b_b_node_a1b1bafc601218c6b5870e430998e387f}{Clear} ()
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_node_adb707da6d39fdae8230dd40f33a6cc85}{Get\+MaxX} ()
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_node_ada7009629434897aefb2b58384ae91e2}{Get\+MinX} ()
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_node_aca46418ff41fbadd321474617abe81e8}{Get\+MaxY} ()
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_node_a1dfa67f00ed2e48487df020eb5a20fd0}{Get\+MinY} ()
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_node_a86f9e03ef5e39913c520b00dd06541e6}{Get\+MaxZ} ()
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_node_a9d8ab82f585a852cc45cb1d8b27188cf}{Get\+MinZ} ()
+\item 
+\hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} $\ast$ \hyperlink{class_a_a_b_b_node_aeba066c64653e3a9d73e0b617a8b844c}{Get\+Next} () const 
+\item 
+void \hyperlink{class_a_a_b_b_node_a43c049985e68d0d7443dc7ba11c71979}{Set\+Data} (const G\+Ldouble maxX, const G\+Ldouble minX, const G\+Ldouble maxY, const G\+Ldouble minY, const G\+Ldouble maxZ, const G\+Ldouble minZ)
+\item 
+void \hyperlink{class_a_a_b_b_node_a2d624ad9c1241156af7a4dd96cbcd40f}{Set\+Next} (\hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} $\ast$next)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_a_a_b_b_node_ae5599cabd1c7ff4437d979ba52c487f6}{A\+A\+B\+B\+Node} (const \hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} \&new\+Node)
+\item 
+\hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} \& \hyperlink{class_a_a_b_b_node_aa4302db47c66af98472bcf6f42c6ba65}{operator=} (const \hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} \&new\+Node)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} $\ast$ \hyperlink{class_a_a_b_b_node_a2fe0e4624db458571d0935f4b09ec415}{m\+\_\+next}
+\item 
+\hyperlink{struct_a_a_b_b_node_1_1_bounding_box}{Bounding\+Box} \hyperlink{class_a_a_b_b_node_ac45482982e70ba3d40c2099b99db0663}{m\+\_\+\+B\+Box}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{A\+A\+B\+B\+Node()}{AABBNode()}}]{\setlength{\rightskip}{0pt plus 5cm}A\+A\+B\+B\+Node\+::\+A\+A\+B\+B\+Node (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_ab44974b730878548779dcc724b8a5be7}{}\label{class_a_a_b_b_node_ab44974b730878548779dcc724b8a5be7}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{class_a_a_b_b_node_ab44974b730878548779dcc724b8a5be7_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!````~A\+A\+B\+B\+Node@{$\sim$\+A\+A\+B\+B\+Node}}
+\index{````~A\+A\+B\+B\+Node@{$\sim$\+A\+A\+B\+B\+Node}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{$\sim$\+A\+A\+B\+B\+Node()}{~AABBNode()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual A\+A\+B\+B\+Node\+::$\sim$\+A\+A\+B\+B\+Node (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_a_a_b_b_node_a9836982140490a8e86a9822dbc0d53e6}{}\label{class_a_a_b_b_node_a9836982140490a8e86a9822dbc0d53e6}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_a_a_b_b_node_a9836982140490a8e86a9822dbc0d53e6_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{A\+A\+B\+B\+Node(const A\+A\+B\+B\+Node \&new\+Node)}{AABBNode(const AABBNode &newNode)}}]{\setlength{\rightskip}{0pt plus 5cm}A\+A\+B\+B\+Node\+::\+A\+A\+B\+B\+Node (
+\begin{DoxyParamCaption}
+\item[{const {\bf A\+A\+B\+B\+Node} \&}]{new\+Node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\hypertarget{class_a_a_b_b_node_ae5599cabd1c7ff4437d979ba52c487f6}{}\label{class_a_a_b_b_node_ae5599cabd1c7ff4437d979ba52c487f6}
+
+
+\subsection{Member Function Documentation}
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Clear@{Clear}}
+\index{Clear@{Clear}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Clear()}{Clear()}}]{\setlength{\rightskip}{0pt plus 5cm}void A\+A\+B\+B\+Node\+::\+Clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_node_a1b1bafc601218c6b5870e430998e387f}{}\label{class_a_a_b_b_node_a1b1bafc601218c6b5870e430998e387f}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_a_a_b_b_node_a1b1bafc601218c6b5870e430998e387f_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Get\+MaxX@{Get\+MaxX}}
+\index{Get\+MaxX@{Get\+MaxX}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Get\+Max\+X()}{GetMaxX()}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Node\+::\+Get\+MaxX (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_adb707da6d39fdae8230dd40f33a6cc85}{}\label{class_a_a_b_b_node_adb707da6d39fdae8230dd40f33a6cc85}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_adb707da6d39fdae8230dd40f33a6cc85_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Get\+MaxY@{Get\+MaxY}}
+\index{Get\+MaxY@{Get\+MaxY}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Get\+Max\+Y()}{GetMaxY()}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Node\+::\+Get\+MaxY (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_aca46418ff41fbadd321474617abe81e8}{}\label{class_a_a_b_b_node_aca46418ff41fbadd321474617abe81e8}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_aca46418ff41fbadd321474617abe81e8_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Get\+MaxZ@{Get\+MaxZ}}
+\index{Get\+MaxZ@{Get\+MaxZ}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Get\+Max\+Z()}{GetMaxZ()}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Node\+::\+Get\+MaxZ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_a86f9e03ef5e39913c520b00dd06541e6}{}\label{class_a_a_b_b_node_a86f9e03ef5e39913c520b00dd06541e6}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_a86f9e03ef5e39913c520b00dd06541e6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Get\+MinX@{Get\+MinX}}
+\index{Get\+MinX@{Get\+MinX}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Get\+Min\+X()}{GetMinX()}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Node\+::\+Get\+MinX (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_ada7009629434897aefb2b58384ae91e2}{}\label{class_a_a_b_b_node_ada7009629434897aefb2b58384ae91e2}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_ada7009629434897aefb2b58384ae91e2_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Get\+MinY@{Get\+MinY}}
+\index{Get\+MinY@{Get\+MinY}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Get\+Min\+Y()}{GetMinY()}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Node\+::\+Get\+MinY (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_a1dfa67f00ed2e48487df020eb5a20fd0}{}\label{class_a_a_b_b_node_a1dfa67f00ed2e48487df020eb5a20fd0}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_a1dfa67f00ed2e48487df020eb5a20fd0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Get\+MinZ@{Get\+MinZ}}
+\index{Get\+MinZ@{Get\+MinZ}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Get\+Min\+Z()}{GetMinZ()}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Node\+::\+Get\+MinZ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_a9d8ab82f585a852cc45cb1d8b27188cf}{}\label{class_a_a_b_b_node_a9d8ab82f585a852cc45cb1d8b27188cf}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_a9d8ab82f585a852cc45cb1d8b27188cf_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Get\+Next@{Get\+Next}}
+\index{Get\+Next@{Get\+Next}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Get\+Next() const }{GetNext() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+B\+B\+Node}$\ast$ A\+A\+B\+B\+Node\+::\+Get\+Next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_aeba066c64653e3a9d73e0b617a8b844c}{}\label{class_a_a_b_b_node_aeba066c64653e3a9d73e0b617a8b844c}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_a_a_b_b_node_aeba066c64653e3a9d73e0b617a8b844c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_aeba066c64653e3a9d73e0b617a8b844c_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!operator=@{operator=}}
+\index{operator=@{operator=}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{operator=(const A\+A\+B\+B\+Node \&new\+Node)}{operator=(const AABBNode &newNode)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+B\+B\+Node}\& A\+A\+B\+B\+Node\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf A\+A\+B\+B\+Node} \&}]{new\+Node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\hypertarget{class_a_a_b_b_node_aa4302db47c66af98472bcf6f42c6ba65}{}\label{class_a_a_b_b_node_aa4302db47c66af98472bcf6f42c6ba65}
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Set\+Data@{Set\+Data}}
+\index{Set\+Data@{Set\+Data}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Set\+Data(const G\+Ldouble max\+X, const G\+Ldouble min\+X, const G\+Ldouble max\+Y, const G\+Ldouble min\+Y, const G\+Ldouble max\+Z, const G\+Ldouble min\+Z)}{SetData(const GLdouble maxX, const GLdouble minX, const GLdouble maxY, const GLdouble minY, const GLdouble maxZ, const GLdouble minZ)}}]{\setlength{\rightskip}{0pt plus 5cm}void A\+A\+B\+B\+Node\+::\+Set\+Data (
+\begin{DoxyParamCaption}
+\item[{const G\+Ldouble}]{maxX, }
+\item[{const G\+Ldouble}]{minX, }
+\item[{const G\+Ldouble}]{maxY, }
+\item[{const G\+Ldouble}]{minY, }
+\item[{const G\+Ldouble}]{maxZ, }
+\item[{const G\+Ldouble}]{minZ}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_node_a43c049985e68d0d7443dc7ba11c71979}{}\label{class_a_a_b_b_node_a43c049985e68d0d7443dc7ba11c71979}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_a43c049985e68d0d7443dc7ba11c71979_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!Set\+Next@{Set\+Next}}
+\index{Set\+Next@{Set\+Next}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{Set\+Next(\+A\+A\+B\+B\+Node $\ast$next)}{SetNext(AABBNode *next)}}]{\setlength{\rightskip}{0pt plus 5cm}void A\+A\+B\+B\+Node\+::\+Set\+Next (
+\begin{DoxyParamCaption}
+\item[{{\bf A\+A\+B\+B\+Node} $\ast$}]{next}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_node_a2d624ad9c1241156af7a4dd96cbcd40f}{}\label{class_a_a_b_b_node_a2d624ad9c1241156af7a4dd96cbcd40f}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_node_a2d624ad9c1241156af7a4dd96cbcd40f_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!m\+\_\+\+B\+Box@{m\+\_\+\+B\+Box}}
+\index{m\+\_\+\+B\+Box@{m\+\_\+\+B\+Box}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{m\+\_\+\+B\+Box}{m_BBox}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Bounding\+Box} A\+A\+B\+B\+Node\+::m\+\_\+\+B\+Box\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_a_a_b_b_node_ac45482982e70ba3d40c2099b99db0663}{}\label{class_a_a_b_b_node_ac45482982e70ba3d40c2099b99db0663}
+\index{A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}!m\+\_\+next@{m\+\_\+next}}
+\index{m\+\_\+next@{m\+\_\+next}!A\+A\+B\+B\+Node@{A\+A\+B\+B\+Node}}
+\subsubsection[{\texorpdfstring{m\+\_\+next}{m_next}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+B\+B\+Node}$\ast$ A\+A\+B\+B\+Node\+::m\+\_\+next\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_a_a_b_b_node_a2fe0e4624db458571d0935f4b09ec415}{}\label{class_a_a_b_b_node_a2fe0e4624db458571d0935f4b09ec415}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{_a_a_b_b_node_8h}{A\+A\+B\+B\+Node.\+h}\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{_a_a_b_b_node_8cpp}{A\+A\+B\+B\+Node.\+cpp}\end{DoxyCompactItemize}

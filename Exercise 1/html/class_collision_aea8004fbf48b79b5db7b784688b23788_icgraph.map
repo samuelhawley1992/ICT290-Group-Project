@@ -1,0 +1,15 @@
+<map id="Collision::Collision" name="Collision::Collision">
+<area shape="rect" id="node2" href="$class_collision.html#a0b97a69bc20aeecc04e5c4359e675af7" title="Collision::Collide" alt="" coords="181,81,300,108"/>
+<area shape="rect" id="node3" href="$class_camera.html#acc808e653e9c59f0d2450c9caca26b98" title="Camera::MoveFB" alt="" coords="372,5,495,32"/>
+<area shape="rect" id="node9" href="$class_camera.html#ad53c2248f2d38bc8f01ac288e8cc21d3" title="Camera::MoveLR" alt="" coords="373,56,494,83"/>
+<area shape="rect" id="node10" href="$class_camera.html#af14abc814d362ed9781db6725919f836" title="Camera::MoveUD" alt="" coords="372,107,495,133"/>
+<area shape="rect" id="node11" href="$class_collision.html#affd6aa970fc603b44dab681f551baef1" title="Collision::GetNoBounding\lBoxes" alt="" coords="348,158,519,199"/>
+<area shape="rect" id="node4" href="$class_camera.html#a5757577b0e11b8722bf251ee086eef1d" title="Camera::CheckCamera" alt="" coords="576,56,733,83"/>
+<area shape="rect" id="node5" href="$class_camera.html#a333f233675f83907a0f8a8e3274865fe" title="Camera::GetAABBMinZ" alt="" coords="794,35,954,61"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a5d3fb9b91b5c167b70a1a0557e67f271" title="Display" alt="" coords="841,85,907,112"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1144,115,1195,141"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ad98e38d016ad1258ee8592beffa21c93" title="mouseMove" alt="" coords="1005,115,1096,141"/>
+<area shape="rect" id="node12" href="$class_collision.html#a30554164f1f1501dc707bcec81e3fd34" title="Collision::CreateLinkedList" alt="" coords="567,165,743,192"/>
+<area shape="rect" id="node13" href="$class_camera.html#af39ed792820436b916a4d6110413423f" title="Camera::InitiateBounding\lBoxes" alt="" coords="791,158,957,199"/>
+<area shape="rect" id="node14" href="$main_8cpp.html#a8264fa9a7444ab4805520c3d018b6623" title="myinit" alt="" coords="1022,165,1079,192"/>
+</map>

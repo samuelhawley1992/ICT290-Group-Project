@@ -1,0 +1,497 @@
+\hypertarget{class_a_a_b_b_linked_list}{}\section{A\+A\+B\+B\+Linked\+List Class Reference}
+\label{class_a_a_b_b_linked_list}\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+
+
+{\ttfamily \#include $<$A\+A\+B\+B\+Linked\+List.\+h$>$}
+
+
+
+Collaboration diagram for A\+A\+B\+B\+Linked\+List\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_a_a_b_b_linked_list__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_a_a_b_b_linked_list_a2da1cd31c139b1ff1dd058f89c05c392}{A\+A\+B\+B\+Linked\+List} ()
+\item 
+virtual \hyperlink{class_a_a_b_b_linked_list_a045b677f4cceafb09d188e7a08f5e065}{$\sim$\+A\+A\+B\+B\+Linked\+List} ()
+\item 
+void \hyperlink{class_a_a_b_b_linked_list_a91220ba141deab9a3da2ec7ca6396436}{Clear} ()
+\item 
+bool \hyperlink{class_a_a_b_b_linked_list_a0dda8d1e7b9d5a2721b518d03b141664}{Add\+To\+Start} (G\+Ldouble maxX, G\+Ldouble minX, G\+Ldouble maxY, G\+Ldouble minY, G\+Ldouble maxZ, G\+Ldouble minZ)
+\item 
+void \hyperlink{class_a_a_b_b_linked_list_a9466a3aaffb597d9976259726b44463a}{Set\+Data} (const int \&ptr\+Count, const G\+Ldouble maxX, const G\+Ldouble minX, const G\+Ldouble maxY, const G\+Ldouble minY, const G\+Ldouble maxZ, const G\+Ldouble minZ)
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_linked_list_a8e5dfc22a5b09a5439c7d48c777f21b6}{Get\+MaxX} (int ptr\+Count)
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_linked_list_a01b738ef73d102240bc9bd54044c2a46}{Get\+MinX} (int ptr\+Count)
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_linked_list_a06e37c604e86a670fc6657aac7ada31b}{Get\+MaxY} (int ptr\+Count)
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_linked_list_aa59cbdbfb2012f733010283639a27584}{Get\+MinY} (int ptr\+Count)
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_linked_list_af728cb9e63fe37667356ec4a74d9bb09}{Get\+MaxZ} (int ptr\+Count)
+\item 
+G\+Ldouble \hyperlink{class_a_a_b_b_linked_list_a93270a86be1d2f63aca450f7ef39d130}{Get\+MinZ} (int ptr\+Count)
+\item 
+int \hyperlink{class_a_a_b_b_linked_list_a42ebbd212e1058adab56b5829dedffca}{Get\+List\+Size} ()
+\item 
+\hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} $\ast$ \hyperlink{class_a_a_b_b_linked_list_a8843e719c2db1f73087fe772a39fa1af}{Get\+Next} () const 
+\item 
+\hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} $\ast$ \hyperlink{class_a_a_b_b_linked_list_a51b92571c3e95ca4b3906a8a6aae547f}{Get\+First} () const 
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_a_a_b_b_linked_list_aa4e4c62a0b374cafb85f5f41a9d31553}{Delete} (\hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} $\ast$before)
+\item 
+\hyperlink{class_a_a_b_b_linked_list_ad59bb13edd2c35799bf927038836ddea}{A\+A\+B\+B\+Linked\+List} (const \hyperlink{class_a_a_b_b_linked_list}{A\+A\+B\+B\+Linked\+List} \&ll)
+\item 
+\hyperlink{class_a_a_b_b_linked_list}{A\+A\+B\+B\+Linked\+List} \& \hyperlink{class_a_a_b_b_linked_list_ac70cf6e12aba18c1245566e226199d3d}{operator=} (const \hyperlink{class_a_a_b_b_linked_list}{A\+A\+B\+B\+Linked\+List} \&ll)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_a_a_b_b_node}{A\+A\+B\+B\+Node} $\ast$ \hyperlink{class_a_a_b_b_linked_list_ae5641ef70823a45200dc68b28bf47351}{m\+\_\+first}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{A\+A\+B\+B\+Linked\+List()}{AABBLinkedList()}}]{\setlength{\rightskip}{0pt plus 5cm}A\+A\+B\+B\+Linked\+List\+::\+A\+A\+B\+B\+Linked\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_linked_list_a2da1cd31c139b1ff1dd058f89c05c392}{}\label{class_a_a_b_b_linked_list_a2da1cd31c139b1ff1dd058f89c05c392}
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!````~A\+A\+B\+B\+Linked\+List@{$\sim$\+A\+A\+B\+B\+Linked\+List}}
+\index{````~A\+A\+B\+B\+Linked\+List@{$\sim$\+A\+A\+B\+B\+Linked\+List}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{$\sim$\+A\+A\+B\+B\+Linked\+List()}{~AABBLinkedList()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual A\+A\+B\+B\+Linked\+List\+::$\sim$\+A\+A\+B\+B\+Linked\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_a_a_b_b_linked_list_a045b677f4cceafb09d188e7a08f5e065}{}\label{class_a_a_b_b_linked_list_a045b677f4cceafb09d188e7a08f5e065}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a045b677f4cceafb09d188e7a08f5e065_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{A\+A\+B\+B\+Linked\+List(const A\+A\+B\+B\+Linked\+List \&ll)}{AABBLinkedList(const AABBLinkedList &ll)}}]{\setlength{\rightskip}{0pt plus 5cm}A\+A\+B\+B\+Linked\+List\+::\+A\+A\+B\+B\+Linked\+List (
+\begin{DoxyParamCaption}
+\item[{const {\bf A\+A\+B\+B\+Linked\+List} \&}]{ll}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\hypertarget{class_a_a_b_b_linked_list_ad59bb13edd2c35799bf927038836ddea}{}\label{class_a_a_b_b_linked_list_ad59bb13edd2c35799bf927038836ddea}
+
+
+\subsection{Member Function Documentation}
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Add\+To\+Start@{Add\+To\+Start}}
+\index{Add\+To\+Start@{Add\+To\+Start}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Add\+To\+Start(\+G\+Ldouble max\+X, G\+Ldouble min\+X, G\+Ldouble max\+Y, G\+Ldouble min\+Y, G\+Ldouble max\+Z, G\+Ldouble min\+Z)}{AddToStart(GLdouble maxX, GLdouble minX, GLdouble maxY, GLdouble minY, GLdouble maxZ, GLdouble minZ)}}]{\setlength{\rightskip}{0pt plus 5cm}bool A\+A\+B\+B\+Linked\+List\+::\+Add\+To\+Start (
+\begin{DoxyParamCaption}
+\item[{G\+Ldouble}]{maxX, }
+\item[{G\+Ldouble}]{minX, }
+\item[{G\+Ldouble}]{maxY, }
+\item[{G\+Ldouble}]{minY, }
+\item[{G\+Ldouble}]{maxZ, }
+\item[{G\+Ldouble}]{minZ}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_a0dda8d1e7b9d5a2721b518d03b141664}{}\label{class_a_a_b_b_linked_list_a0dda8d1e7b9d5a2721b518d03b141664}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a0dda8d1e7b9d5a2721b518d03b141664_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a0dda8d1e7b9d5a2721b518d03b141664_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Clear@{Clear}}
+\index{Clear@{Clear}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Clear()}{Clear()}}]{\setlength{\rightskip}{0pt plus 5cm}void A\+A\+B\+B\+Linked\+List\+::\+Clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_a91220ba141deab9a3da2ec7ca6396436}{}\label{class_a_a_b_b_linked_list_a91220ba141deab9a3da2ec7ca6396436}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a91220ba141deab9a3da2ec7ca6396436_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a91220ba141deab9a3da2ec7ca6396436_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Delete@{Delete}}
+\index{Delete@{Delete}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Delete(\+A\+A\+B\+B\+Node $\ast$before)}{Delete(AABBNode *before)}}]{\setlength{\rightskip}{0pt plus 5cm}void A\+A\+B\+B\+Linked\+List\+::\+Delete (
+\begin{DoxyParamCaption}
+\item[{{\bf A\+A\+B\+B\+Node} $\ast$}]{before}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_a_a_b_b_linked_list_aa4e4c62a0b374cafb85f5f41a9d31553}{}\label{class_a_a_b_b_linked_list_aa4e4c62a0b374cafb85f5f41a9d31553}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_aa4e4c62a0b374cafb85f5f41a9d31553_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_aa4e4c62a0b374cafb85f5f41a9d31553_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+First@{Get\+First}}
+\index{Get\+First@{Get\+First}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+First() const }{GetFirst() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+B\+B\+Node}$\ast$ A\+A\+B\+B\+Linked\+List\+::\+Get\+First (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_linked_list_a51b92571c3e95ca4b3906a8a6aae547f}{}\label{class_a_a_b_b_linked_list_a51b92571c3e95ca4b3906a8a6aae547f}
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+List\+Size@{Get\+List\+Size}}
+\index{Get\+List\+Size@{Get\+List\+Size}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+List\+Size()}{GetListSize()}}]{\setlength{\rightskip}{0pt plus 5cm}int A\+A\+B\+B\+Linked\+List\+::\+Get\+List\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_a42ebbd212e1058adab56b5829dedffca}{}\label{class_a_a_b_b_linked_list_a42ebbd212e1058adab56b5829dedffca}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a42ebbd212e1058adab56b5829dedffca_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a42ebbd212e1058adab56b5829dedffca_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+MaxX@{Get\+MaxX}}
+\index{Get\+MaxX@{Get\+MaxX}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+Max\+X(int ptr\+Count)}{GetMaxX(int ptrCount)}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Linked\+List\+::\+Get\+MaxX (
+\begin{DoxyParamCaption}
+\item[{int}]{ptr\+Count}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_a8e5dfc22a5b09a5439c7d48c777f21b6}{}\label{class_a_a_b_b_linked_list_a8e5dfc22a5b09a5439c7d48c777f21b6}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a8e5dfc22a5b09a5439c7d48c777f21b6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a8e5dfc22a5b09a5439c7d48c777f21b6_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+MaxY@{Get\+MaxY}}
+\index{Get\+MaxY@{Get\+MaxY}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+Max\+Y(int ptr\+Count)}{GetMaxY(int ptrCount)}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Linked\+List\+::\+Get\+MaxY (
+\begin{DoxyParamCaption}
+\item[{int}]{ptr\+Count}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_a06e37c604e86a670fc6657aac7ada31b}{}\label{class_a_a_b_b_linked_list_a06e37c604e86a670fc6657aac7ada31b}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a06e37c604e86a670fc6657aac7ada31b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a06e37c604e86a670fc6657aac7ada31b_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+MaxZ@{Get\+MaxZ}}
+\index{Get\+MaxZ@{Get\+MaxZ}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+Max\+Z(int ptr\+Count)}{GetMaxZ(int ptrCount)}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Linked\+List\+::\+Get\+MaxZ (
+\begin{DoxyParamCaption}
+\item[{int}]{ptr\+Count}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_af728cb9e63fe37667356ec4a74d9bb09}{}\label{class_a_a_b_b_linked_list_af728cb9e63fe37667356ec4a74d9bb09}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_af728cb9e63fe37667356ec4a74d9bb09_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_af728cb9e63fe37667356ec4a74d9bb09_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+MinX@{Get\+MinX}}
+\index{Get\+MinX@{Get\+MinX}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+Min\+X(int ptr\+Count)}{GetMinX(int ptrCount)}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Linked\+List\+::\+Get\+MinX (
+\begin{DoxyParamCaption}
+\item[{int}]{ptr\+Count}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_a01b738ef73d102240bc9bd54044c2a46}{}\label{class_a_a_b_b_linked_list_a01b738ef73d102240bc9bd54044c2a46}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a01b738ef73d102240bc9bd54044c2a46_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a01b738ef73d102240bc9bd54044c2a46_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+MinY@{Get\+MinY}}
+\index{Get\+MinY@{Get\+MinY}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+Min\+Y(int ptr\+Count)}{GetMinY(int ptrCount)}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Linked\+List\+::\+Get\+MinY (
+\begin{DoxyParamCaption}
+\item[{int}]{ptr\+Count}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_aa59cbdbfb2012f733010283639a27584}{}\label{class_a_a_b_b_linked_list_aa59cbdbfb2012f733010283639a27584}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_aa59cbdbfb2012f733010283639a27584_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_aa59cbdbfb2012f733010283639a27584_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+MinZ@{Get\+MinZ}}
+\index{Get\+MinZ@{Get\+MinZ}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+Min\+Z(int ptr\+Count)}{GetMinZ(int ptrCount)}}]{\setlength{\rightskip}{0pt plus 5cm}G\+Ldouble A\+A\+B\+B\+Linked\+List\+::\+Get\+MinZ (
+\begin{DoxyParamCaption}
+\item[{int}]{ptr\+Count}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_a93270a86be1d2f63aca450f7ef39d130}{}\label{class_a_a_b_b_linked_list_a93270a86be1d2f63aca450f7ef39d130}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a93270a86be1d2f63aca450f7ef39d130_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a93270a86be1d2f63aca450f7ef39d130_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Get\+Next@{Get\+Next}}
+\index{Get\+Next@{Get\+Next}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Get\+Next() const }{GetNext() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+B\+B\+Node}$\ast$ A\+A\+B\+B\+Linked\+List\+::\+Get\+Next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_a_a_b_b_linked_list_a8843e719c2db1f73087fe772a39fa1af}{}\label{class_a_a_b_b_linked_list_a8843e719c2db1f73087fe772a39fa1af}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a8843e719c2db1f73087fe772a39fa1af_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!operator=@{operator=}}
+\index{operator=@{operator=}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{operator=(const A\+A\+B\+B\+Linked\+List \&ll)}{operator=(const AABBLinkedList &ll)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+B\+B\+Linked\+List}\& A\+A\+B\+B\+Linked\+List\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf A\+A\+B\+B\+Linked\+List} \&}]{ll}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\hypertarget{class_a_a_b_b_linked_list_ac70cf6e12aba18c1245566e226199d3d}{}\label{class_a_a_b_b_linked_list_ac70cf6e12aba18c1245566e226199d3d}
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!Set\+Data@{Set\+Data}}
+\index{Set\+Data@{Set\+Data}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{Set\+Data(const int \&ptr\+Count, const G\+Ldouble max\+X, const G\+Ldouble min\+X, const G\+Ldouble max\+Y, const G\+Ldouble min\+Y, const G\+Ldouble max\+Z, const G\+Ldouble min\+Z)}{SetData(const int &ptrCount, const GLdouble maxX, const GLdouble minX, const GLdouble maxY, const GLdouble minY, const GLdouble maxZ, const GLdouble minZ)}}]{\setlength{\rightskip}{0pt plus 5cm}void A\+A\+B\+B\+Linked\+List\+::\+Set\+Data (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{ptr\+Count, }
+\item[{const G\+Ldouble}]{maxX, }
+\item[{const G\+Ldouble}]{minX, }
+\item[{const G\+Ldouble}]{maxY, }
+\item[{const G\+Ldouble}]{minY, }
+\item[{const G\+Ldouble}]{maxZ, }
+\item[{const G\+Ldouble}]{minZ}
+\end{DoxyParamCaption}
+)}\hypertarget{class_a_a_b_b_linked_list_a9466a3aaffb597d9976259726b44463a}{}\label{class_a_a_b_b_linked_list_a9466a3aaffb597d9976259726b44463a}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a9466a3aaffb597d9976259726b44463a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_a_a_b_b_linked_list_a9466a3aaffb597d9976259726b44463a_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\index{A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}!m\+\_\+first@{m\+\_\+first}}
+\index{m\+\_\+first@{m\+\_\+first}!A\+A\+B\+B\+Linked\+List@{A\+A\+B\+B\+Linked\+List}}
+\subsubsection[{\texorpdfstring{m\+\_\+first}{m_first}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+B\+B\+Node}$\ast$ A\+A\+B\+B\+Linked\+List\+::m\+\_\+first\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_a_a_b_b_linked_list_ae5641ef70823a45200dc68b28bf47351}{}\label{class_a_a_b_b_linked_list_ae5641ef70823a45200dc68b28bf47351}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{_a_a_b_b_linked_list_8h}{A\+A\+B\+B\+Linked\+List.\+h}\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{_a_a_b_b_linked_list_8cpp}{A\+A\+B\+B\+Linked\+List.\+cpp}\end{DoxyCompactItemize}

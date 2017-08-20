@@ -1,0 +1,370 @@
+\hypertarget{class_c_easy_sound}{}\section{C\+Easy\+Sound Class Reference}
+\label{class_c_easy_sound}\index{C\+Easy\+Sound@{C\+Easy\+Sound}}
+
+
+{\ttfamily \#include $<$Easy\+Sound.\+h$>$}
+
+
+
+Collaboration diagram for C\+Easy\+Sound\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{class_c_easy_sound__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_c_easy_sound_a5cff415b6a13deb64871cfc2dfa33b3c}{$\sim$\+C\+Easy\+Sound} ()
+\item 
+void \hyperlink{class_c_easy_sound_a29fc35523c9eedb3b2589f90f27d03f0}{Call\+Mix\+Audio} (void $\ast$unused, Uint8 $\ast$stream, int len)
+\item 
+int \hyperlink{class_c_easy_sound_aa1d7ffd4f5c4891a863df85d6136daf1}{Load} (char $\ast$filename)
+\item 
+void \hyperlink{class_c_easy_sound_a88ac4b0af77d561c5fad4016ed9aedcf}{Unload} (int i\+Sound\+ID)
+\item 
+void \hyperlink{class_c_easy_sound_a7d7e9aa0f0b6cc79ab2cdb179ee9d29f}{Unload} (\hyperlink{class_c_sound}{C\+Sound} $\ast$sound)
+\item 
+\hyperlink{class_c_sound}{C\+Sound} $\ast$ \hyperlink{class_c_easy_sound_a871478c0717d884846c2a4f528860a5f}{Get\+Sound} (int i\+Sound\+ID)
+\item 
+S\+D\+L\+\_\+\+Audio\+Spec \hyperlink{class_c_easy_sound_a1d5a81eee0c6f787890375f3bc3ec37e}{Get\+Obtained} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_c_easy_sound}{C\+Easy\+Sound} $\ast$ \hyperlink{class_c_easy_sound_a89e74a3e4cf2bd0e72c3bbf6901dcb7c}{Instance} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_easy_sound_a4a18c7ef207c8a00470c19f07044f8b6}{C\+Easy\+Sound} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::list$<$ \hyperlink{class_c_sound}{C\+Sound} $\ast$ $>$ \hyperlink{class_c_easy_sound_ab9462a201705d5314d8672417841f76c}{m\+\_\+list\+Sound}
+\item 
+S\+D\+L\+\_\+\+Audio\+Spec \hyperlink{class_c_easy_sound_a0bba6237523136bdd2f2698b489ab0c5}{desired}
+\item 
+S\+D\+L\+\_\+\+Audio\+Spec \hyperlink{class_c_easy_sound_a1e163bfd31003aed603af84b9464a82c}{obtained}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_c_easy_sound}{C\+Easy\+Sound} $\ast$ \hyperlink{class_c_easy_sound_ac1894785d41ee50082c2592cb8fa6ff1}{\+\_\+instance} = N\+U\+LL
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+class \hyperlink{class_c_easy_sound}{C\+Easy\+Sound}\+: This class is singleton design pattern, and it control all object related to sound. (use S\+DL library)
+
+\begin{DoxyAuthor}{Author}
+Shannon, Graham and Shay 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!````~C\+Easy\+Sound@{$\sim$\+C\+Easy\+Sound}}
+\index{````~C\+Easy\+Sound@{$\sim$\+C\+Easy\+Sound}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{$\sim$\+C\+Easy\+Sound()}{~CEasySound()}}]{\setlength{\rightskip}{0pt plus 5cm}C\+Easy\+Sound\+::$\sim$\+C\+Easy\+Sound (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_c_easy_sound_a5cff415b6a13deb64871cfc2dfa33b3c}{}\label{class_c_easy_sound_a5cff415b6a13deb64871cfc2dfa33b3c}
+$\sim$\+C\+Easy\+Sound\+:
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{C\+Easy\+Sound()}{CEasySound()}}]{\setlength{\rightskip}{0pt plus 5cm}C\+Easy\+Sound\+::\+C\+Easy\+Sound (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_c_easy_sound_a4a18c7ef207c8a00470c19f07044f8b6}{}\label{class_c_easy_sound_a4a18c7ef207c8a00470c19f07044f8b6}
+\hyperlink{class_c_easy_sound}{C\+Easy\+Sound}\+: The construction had to be protected because of Singleton Design Pattern
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_easy_sound_a4a18c7ef207c8a00470c19f07044f8b6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_easy_sound_a4a18c7ef207c8a00470c19f07044f8b6_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!Call\+Mix\+Audio@{Call\+Mix\+Audio}}
+\index{Call\+Mix\+Audio@{Call\+Mix\+Audio}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{Call\+Mix\+Audio(void $\ast$unused, Uint8 $\ast$stream, int len)}{CallMixAudio(void *unused, Uint8 *stream, int len)}}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Easy\+Sound\+::\+Call\+Mix\+Audio (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{unused, }
+\item[{Uint8 $\ast$}]{stream, }
+\item[{int}]{len}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_easy_sound_a29fc35523c9eedb3b2589f90f27d03f0}{}\label{class_c_easy_sound_a29fc35523c9eedb3b2589f90f27d03f0}
+Call\+Mix\+Audio\+: ? no idea eh
+
+
+\begin{DoxyParams}{Parameters}
+{\em unused} & \\
+\hline
+{\em stream} & \\
+\hline
+{\em len} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_easy_sound_a29fc35523c9eedb3b2589f90f27d03f0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!Get\+Obtained@{Get\+Obtained}}
+\index{Get\+Obtained@{Get\+Obtained}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{Get\+Obtained()}{GetObtained()}}]{\setlength{\rightskip}{0pt plus 5cm}S\+D\+L\+\_\+\+Audio\+Spec C\+Easy\+Sound\+::\+Get\+Obtained (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_c_easy_sound_a1d5a81eee0c6f787890375f3bc3ec37e}{}\label{class_c_easy_sound_a1d5a81eee0c6f787890375f3bc3ec37e}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_easy_sound_a1d5a81eee0c6f787890375f3bc3ec37e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_c_easy_sound_a1d5a81eee0c6f787890375f3bc3ec37e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!Get\+Sound@{Get\+Sound}}
+\index{Get\+Sound@{Get\+Sound}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{Get\+Sound(int i\+Sound\+I\+D)}{GetSound(int iSoundID)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Sound} $\ast$ C\+Easy\+Sound\+::\+Get\+Sound (
+\begin{DoxyParamCaption}
+\item[{int}]{i\+Sound\+ID}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_easy_sound_a871478c0717d884846c2a4f528860a5f}{}\label{class_c_easy_sound_a871478c0717d884846c2a4f528860a5f}
+Get\+Sound\+: get the sound from the m\+\_\+list\+Sound list
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\+Sound\+ID} & -\/ Sound\textquotesingle{}s ID to be given before get Sound Object from the m\+\_\+list\+Sound \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+C\+Sound$\ast$ -\/ Sound Object to use it (Play, Stop, etc) 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{class_c_easy_sound_a871478c0717d884846c2a4f528860a5f_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!Instance@{Instance}}
+\index{Instance@{Instance}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{Instance()}{Instance()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Easy\+Sound} $\ast$ C\+Easy\+Sound\+::\+Instance (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_c_easy_sound_a89e74a3e4cf2bd0e72c3bbf6901dcb7c}{}\label{class_c_easy_sound_a89e74a3e4cf2bd0e72c3bbf6901dcb7c}
+Instance\+: Get \hyperlink{class_c_easy_sound}{C\+Easy\+Sound} class before using any methods (Singleton Design Pattern)
+
+\begin{DoxyReturn}{Returns}
+static C\+Easy\+Sound$\ast$ 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_easy_sound_a89e74a3e4cf2bd0e72c3bbf6901dcb7c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_c_easy_sound_a89e74a3e4cf2bd0e72c3bbf6901dcb7c_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!Load@{Load}}
+\index{Load@{Load}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{Load(char $\ast$filename)}{Load(char *filename)}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Easy\+Sound\+::\+Load (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_easy_sound_aa1d7ffd4f5c4891a863df85d6136daf1}{}\label{class_c_easy_sound_aa1d7ffd4f5c4891a863df85d6136daf1}
+Load\+: load the sound and store in the m\+\_\+list\+Sound list
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & -\/ filename of sound wave file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int -\/ get sound\textquotesingle{}s ID for future use 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{class_c_easy_sound_aa1d7ffd4f5c4891a863df85d6136daf1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{class_c_easy_sound_aa1d7ffd4f5c4891a863df85d6136daf1_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!Unload@{Unload}}
+\index{Unload@{Unload}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{Unload(int i\+Sound\+I\+D)}{Unload(int iSoundID)}}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Easy\+Sound\+::\+Unload (
+\begin{DoxyParamCaption}
+\item[{int}]{i\+Sound\+ID}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_easy_sound_a88ac4b0af77d561c5fad4016ed9aedcf}{}\label{class_c_easy_sound_a88ac4b0af77d561c5fad4016ed9aedcf}
+Unload\+: unload the sound and remove form the m\+\_\+list\+Sound list
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\+Sound\+ID} & -\/ Sound\textquotesingle{}s ID to find if there match ID in the m\+\_\+list\+Sound and unload it. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_c_easy_sound_a88ac4b0af77d561c5fad4016ed9aedcf_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!Unload@{Unload}}
+\index{Unload@{Unload}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{Unload(\+C\+Sound $\ast$sound)}{Unload(CSound *sound)}}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Easy\+Sound\+::\+Unload (
+\begin{DoxyParamCaption}
+\item[{{\bf C\+Sound} $\ast$}]{sound}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_easy_sound_a7d7e9aa0f0b6cc79ab2cdb179ee9d29f}{}\label{class_c_easy_sound_a7d7e9aa0f0b6cc79ab2cdb179ee9d29f}
+Unload\+: unload the sound and remove from the m\+\_\+list\+Sound list
+
+
+\begin{DoxyParams}{Parameters}
+{\em sound} & -\/ \hyperlink{class_c_sound}{C\+Sound} class to find if there match ID in the m\+\_\+list\+Sound and unload it. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_c_easy_sound_a7d7e9aa0f0b6cc79ab2cdb179ee9d29f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!\+\_\+instance@{\+\_\+instance}}
+\index{\+\_\+instance@{\+\_\+instance}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{\+\_\+instance}{_instance}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Easy\+Sound} $\ast$ C\+Easy\+Sound\+::\+\_\+instance = N\+U\+LL\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\hypertarget{class_c_easy_sound_ac1894785d41ee50082c2592cb8fa6ff1}{}\label{class_c_easy_sound_ac1894785d41ee50082c2592cb8fa6ff1}
+\+\_\+instance\+: pointer of \hyperlink{class_c_easy_sound}{C\+Easy\+Sound} class as part of the Singleton Design Pattern \index{C\+Easy\+Sound@{C\+Easy\+Sound}!desired@{desired}}
+\index{desired@{desired}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{desired}{desired}}]{\setlength{\rightskip}{0pt plus 5cm}S\+D\+L\+\_\+\+Audio\+Spec C\+Easy\+Sound\+::desired\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_c_easy_sound_a0bba6237523136bdd2f2698b489ab0c5}{}\label{class_c_easy_sound_a0bba6237523136bdd2f2698b489ab0c5}
+\index{C\+Easy\+Sound@{C\+Easy\+Sound}!m\+\_\+list\+Sound@{m\+\_\+list\+Sound}}
+\index{m\+\_\+list\+Sound@{m\+\_\+list\+Sound}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{m\+\_\+list\+Sound}{m_listSound}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::list$<${\bf C\+Sound}$\ast$$>$ C\+Easy\+Sound\+::m\+\_\+list\+Sound\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_c_easy_sound_ab9462a201705d5314d8672417841f76c}{}\label{class_c_easy_sound_ab9462a201705d5314d8672417841f76c}
+m\+\_\+list\+Sound\+: list of Sound\textquotesingle{}s object to store it. (S\+TL\textquotesingle{}s list object) \index{C\+Easy\+Sound@{C\+Easy\+Sound}!obtained@{obtained}}
+\index{obtained@{obtained}!C\+Easy\+Sound@{C\+Easy\+Sound}}
+\subsubsection[{\texorpdfstring{obtained}{obtained}}]{\setlength{\rightskip}{0pt plus 5cm}S\+D\+L\+\_\+\+Audio\+Spec C\+Easy\+Sound\+::obtained\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_c_easy_sound_a1e163bfd31003aed603af84b9464a82c}{}\label{class_c_easy_sound_a1e163bfd31003aed603af84b9464a82c}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{_easy_sound_8h}{Easy\+Sound.\+h}\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{_easy_sound_8cpp}{Easy\+Sound.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+<map id="CSound::CSound" name="CSound::CSound">
+<area shape="rect" id="node2" href="$class_c_easy_sound.html#a89e74a3e4cf2bd0e72c3bbf6901dcb7c" title="CEasySound::Instance" alt="" coords="188,56,343,83"/>
+<area shape="rect" id="node6" href="$class_c_easy_sound.html#a1d5a81eee0c6f787890375f3bc3ec37e" title="CEasySound::GetObtained" alt="" coords="176,5,355,32"/>
+<area shape="rect" id="node7" href="$class_c_sound_time.html#a51ef710780c9680f685b39421d605377" title="CSoundTime::GetSDLTime" alt="" coords="176,107,355,133"/>
+<area shape="rect" id="node3" href="$class_c_easy_sound.html#a4a18c7ef207c8a00470c19f07044f8b6" title="CEasySound::CEasySound" alt="" coords="403,5,585,32"/>
+<area shape="rect" id="node4" href="$_easy_sound_8cpp.html#acb5aef18dcd112d5e47c746978b6df4d" title="mixaudio" alt="" coords="633,31,708,57"/>
+<area shape="rect" id="node5" href="$class_c_easy_sound.html#a29fc35523c9eedb3b2589f90f27d03f0" title="CEasySound::CallMixAudio" alt="" coords="756,31,939,57"/>
+</map>

@@ -1,0 +1,715 @@
+\hypertarget{class_collision}{}\section{Collision Class Reference}
+\label{class_collision}\index{Collision@{Collision}}
+
+
+{\ttfamily \#include $<$collision.\+h$>$}
+
+
+
+Collaboration diagram for Collision\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_collision__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_collision_aea8004fbf48b79b5db7b784688b23788}{Collision} ()
+\item 
+virtual \hyperlink{class_collision_a81d1b669d7a8b03b178e794168ba7cec}{$\sim$\+Collision} ()
+\item 
+void \hyperlink{class_collision_a4a48bb981450043e0acf28a94ba374cc}{Set\+A\+A\+B\+B\+MaxX} (const int \&temp\+Index, const double \&tempX)
+\item 
+void \hyperlink{class_collision_ad66b32a512b0960655b5ccdbbf801040}{Set\+A\+A\+B\+B\+MinX} (const int \&temp\+Index, const double \&tempX)
+\item 
+void \hyperlink{class_collision_a35e483cf3deffa4be09fed5784fe9b70}{Set\+A\+A\+B\+B\+MaxY} (const int \&temp\+Index, const double \&tempY)
+\item 
+void \hyperlink{class_collision_a2fc1f4a0be6b09684b7b79afc943a385}{Set\+A\+A\+B\+B\+MinY} (const int \&temp\+Index, const double \&tempY)
+\item 
+void \hyperlink{class_collision_a9b6fe54f1dda6499340ac58c5ffb6a77}{Set\+A\+A\+B\+B\+MaxZ} (const int \&temp\+Index, const double \&tempZ)
+\item 
+void \hyperlink{class_collision_ab77ba9725bc8b756345869e96cfc3228}{Set\+A\+A\+B\+B\+MinZ} (const int \&temp\+Index, const double \&tempZ)
+\item 
+void \hyperlink{class_collision_af053c5af75487ad9562a936ec8e6a158}{Set\+WorldX} (const double \&tempX)
+\item 
+void \hyperlink{class_collision_a6f39869c9da8a8860d01b7f8091ea0af}{Set\+WorldZ} (const double \&tempZ)
+\item 
+void \hyperlink{class_collision_a33c7681e88ca6ab89ae53b6342aed6f2}{Set\+No\+Bounding\+Boxes} (const int \&temp\+Size)
+\item 
+double \hyperlink{class_collision_a54a4c7409f13ac040768d41422e796de}{Get\+A\+A\+B\+B\+MaxX} (const int \&temp\+Index)
+\item 
+double \hyperlink{class_collision_a5cf3d3f10e3f24128a6b410c5a34ffa7}{Get\+A\+A\+B\+B\+MinX} (const int \&temp\+Index)
+\item 
+double \hyperlink{class_collision_aa3dcbca1a59ada6f1140ce68ffaf4e24}{Get\+A\+A\+B\+B\+MaxY} (const int \&temp\+Index)
+\item 
+double \hyperlink{class_collision_a3e246319658fd5a998798ca6b31d3928}{Get\+A\+A\+B\+B\+MinY} (const int \&temp\+Index)
+\item 
+double \hyperlink{class_collision_acc43c167003e4a0b9acbd3cd115bb63e}{Get\+A\+A\+B\+B\+MaxZ} (const int \&temp\+Index)
+\item 
+double \hyperlink{class_collision_a30a4c5b51585ee4ea10d6b7a7a7b2539}{Get\+A\+A\+B\+B\+MinZ} (const int \&temp\+Index)
+\item 
+int \hyperlink{class_collision_affd6aa970fc603b44dab681f551baef1}{Get\+No\+Bounding\+Boxes} ()
+\item 
+bool \hyperlink{class_collision_a0b97a69bc20aeecc04e5c4359e675af7}{Collide} (double endX, double endY, double endZ)
+\item 
+void \hyperlink{class_collision_a30554164f1f1501dc707bcec81e3fd34}{Create\+Linked\+List} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_collision_aa2f957eb7ad08fb81e993e6a55c2d5c0}{Check\+Collision} (int index, double endX, double endY, double endZ)
+\item 
+\hyperlink{class_collision_a4b74f854ccef698607a86b15a7783434}{Collision} (const \hyperlink{class_collision}{Collision} \&coll)
+\item 
+\hyperlink{class_collision}{Collision} \& \hyperlink{class_collision_a4fe027eb6fa039decbb3712eeedda396}{operator=} (const \hyperlink{class_collision}{Collision} \&coll)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_a_a_b_b}{A\+A\+BB} \hyperlink{class_collision_a88ee51f46c755e9fde0eaeea3ccc841c}{m\+\_\+\+A\+A\+BB}
+\item 
+\hyperlink{class_a_a_b_b_linked_list}{A\+A\+B\+B\+Linked\+List} \hyperlink{class_collision_ada3810edb7dd64df4afc1d30097385ca}{m\+\_\+list} \mbox{[}4\mbox{]}
+\item 
+int \hyperlink{class_collision_a672db5b63f40954a5c7ddc2077dcd0dd}{m\+\_\+list\+Size} \mbox{[}4\mbox{]}
+\item 
+double \hyperlink{class_collision_a623ab40059b558aee3a4d7ec9f36e584}{m\+\_\+world\+SizeX}
+\item 
+double \hyperlink{class_collision_a1a38403384262f9817e46e125e77601b}{m\+\_\+world\+SizeZ}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Collision@{Collision}!Collision@{Collision}}
+\index{Collision@{Collision}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Collision()}{Collision()}}]{\setlength{\rightskip}{0pt plus 5cm}Collision\+::\+Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_aea8004fbf48b79b5db7b784688b23788}{}\label{class_collision_aea8004fbf48b79b5db7b784688b23788}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_aea8004fbf48b79b5db7b784688b23788_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!````~Collision@{$\sim$\+Collision}}
+\index{````~Collision@{$\sim$\+Collision}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{$\sim$\+Collision()}{~Collision()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual Collision\+::$\sim$\+Collision (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\hypertarget{class_collision_a81d1b669d7a8b03b178e794168ba7cec}{}\label{class_collision_a81d1b669d7a8b03b178e794168ba7cec}
+\index{Collision@{Collision}!Collision@{Collision}}
+\index{Collision@{Collision}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Collision(const Collision \&coll)}{Collision(const Collision &coll)}}]{\setlength{\rightskip}{0pt plus 5cm}Collision\+::\+Collision (
+\begin{DoxyParamCaption}
+\item[{const {\bf Collision} \&}]{coll}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\hypertarget{class_collision_a4b74f854ccef698607a86b15a7783434}{}\label{class_collision_a4b74f854ccef698607a86b15a7783434}
+
+
+\subsection{Member Function Documentation}
+\index{Collision@{Collision}!Check\+Collision@{Check\+Collision}}
+\index{Check\+Collision@{Check\+Collision}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Check\+Collision(int index, double end\+X, double end\+Y, double end\+Z)}{CheckCollision(int index, double endX, double endY, double endZ)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Collision\+::\+Check\+Collision (
+\begin{DoxyParamCaption}
+\item[{int}]{index, }
+\item[{double}]{endX, }
+\item[{double}]{endY, }
+\item[{double}]{endZ}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_collision_aa2f957eb7ad08fb81e993e6a55c2d5c0}{}\label{class_collision_aa2f957eb7ad08fb81e993e6a55c2d5c0}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_aa2f957eb7ad08fb81e993e6a55c2d5c0_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Collide@{Collide}}
+\index{Collide@{Collide}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Collide(double end\+X, double end\+Y, double end\+Z)}{Collide(double endX, double endY, double endZ)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Collision\+::\+Collide (
+\begin{DoxyParamCaption}
+\item[{double}]{endX, }
+\item[{double}]{endY, }
+\item[{double}]{endZ}
+\end{DoxyParamCaption}
+)}\hypertarget{class_collision_a0b97a69bc20aeecc04e5c4359e675af7}{}\label{class_collision_a0b97a69bc20aeecc04e5c4359e675af7}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{class_collision_a0b97a69bc20aeecc04e5c4359e675af7_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a0b97a69bc20aeecc04e5c4359e675af7_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Create\+Linked\+List@{Create\+Linked\+List}}
+\index{Create\+Linked\+List@{Create\+Linked\+List}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Create\+Linked\+List()}{CreateLinkedList()}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Create\+Linked\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_collision_a30554164f1f1501dc707bcec81e3fd34}{}\label{class_collision_a30554164f1f1501dc707bcec81e3fd34}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a30554164f1f1501dc707bcec81e3fd34_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a30554164f1f1501dc707bcec81e3fd34_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Get\+A\+A\+B\+B\+MaxX@{Get\+A\+A\+B\+B\+MaxX}}
+\index{Get\+A\+A\+B\+B\+MaxX@{Get\+A\+A\+B\+B\+MaxX}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Get\+A\+A\+B\+B\+Max\+X(const int \&temp\+Index)}{GetAABBMaxX(const int &tempIndex)}}]{\setlength{\rightskip}{0pt plus 5cm}double Collision\+::\+Get\+A\+A\+B\+B\+MaxX (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a54a4c7409f13ac040768d41422e796de}{}\label{class_collision_a54a4c7409f13ac040768d41422e796de}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_collision_a54a4c7409f13ac040768d41422e796de_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a54a4c7409f13ac040768d41422e796de_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Get\+A\+A\+B\+B\+MaxY@{Get\+A\+A\+B\+B\+MaxY}}
+\index{Get\+A\+A\+B\+B\+MaxY@{Get\+A\+A\+B\+B\+MaxY}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Get\+A\+A\+B\+B\+Max\+Y(const int \&temp\+Index)}{GetAABBMaxY(const int &tempIndex)}}]{\setlength{\rightskip}{0pt plus 5cm}double Collision\+::\+Get\+A\+A\+B\+B\+MaxY (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_aa3dcbca1a59ada6f1140ce68ffaf4e24}{}\label{class_collision_aa3dcbca1a59ada6f1140ce68ffaf4e24}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_collision_aa3dcbca1a59ada6f1140ce68ffaf4e24_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_aa3dcbca1a59ada6f1140ce68ffaf4e24_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Get\+A\+A\+B\+B\+MaxZ@{Get\+A\+A\+B\+B\+MaxZ}}
+\index{Get\+A\+A\+B\+B\+MaxZ@{Get\+A\+A\+B\+B\+MaxZ}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Get\+A\+A\+B\+B\+Max\+Z(const int \&temp\+Index)}{GetAABBMaxZ(const int &tempIndex)}}]{\setlength{\rightskip}{0pt plus 5cm}double Collision\+::\+Get\+A\+A\+B\+B\+MaxZ (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_acc43c167003e4a0b9acbd3cd115bb63e}{}\label{class_collision_acc43c167003e4a0b9acbd3cd115bb63e}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_collision_acc43c167003e4a0b9acbd3cd115bb63e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_acc43c167003e4a0b9acbd3cd115bb63e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Get\+A\+A\+B\+B\+MinX@{Get\+A\+A\+B\+B\+MinX}}
+\index{Get\+A\+A\+B\+B\+MinX@{Get\+A\+A\+B\+B\+MinX}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Get\+A\+A\+B\+B\+Min\+X(const int \&temp\+Index)}{GetAABBMinX(const int &tempIndex)}}]{\setlength{\rightskip}{0pt plus 5cm}double Collision\+::\+Get\+A\+A\+B\+B\+MinX (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a5cf3d3f10e3f24128a6b410c5a34ffa7}{}\label{class_collision_a5cf3d3f10e3f24128a6b410c5a34ffa7}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{class_collision_a5cf3d3f10e3f24128a6b410c5a34ffa7_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a5cf3d3f10e3f24128a6b410c5a34ffa7_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Get\+A\+A\+B\+B\+MinY@{Get\+A\+A\+B\+B\+MinY}}
+\index{Get\+A\+A\+B\+B\+MinY@{Get\+A\+A\+B\+B\+MinY}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Get\+A\+A\+B\+B\+Min\+Y(const int \&temp\+Index)}{GetAABBMinY(const int &tempIndex)}}]{\setlength{\rightskip}{0pt plus 5cm}double Collision\+::\+Get\+A\+A\+B\+B\+MinY (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a3e246319658fd5a998798ca6b31d3928}{}\label{class_collision_a3e246319658fd5a998798ca6b31d3928}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{class_collision_a3e246319658fd5a998798ca6b31d3928_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a3e246319658fd5a998798ca6b31d3928_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Get\+A\+A\+B\+B\+MinZ@{Get\+A\+A\+B\+B\+MinZ}}
+\index{Get\+A\+A\+B\+B\+MinZ@{Get\+A\+A\+B\+B\+MinZ}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Get\+A\+A\+B\+B\+Min\+Z(const int \&temp\+Index)}{GetAABBMinZ(const int &tempIndex)}}]{\setlength{\rightskip}{0pt plus 5cm}double Collision\+::\+Get\+A\+A\+B\+B\+MinZ (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a30a4c5b51585ee4ea10d6b7a7a7b2539}{}\label{class_collision_a30a4c5b51585ee4ea10d6b7a7a7b2539}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{class_collision_a30a4c5b51585ee4ea10d6b7a7a7b2539_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a30a4c5b51585ee4ea10d6b7a7a7b2539_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Get\+No\+Bounding\+Boxes@{Get\+No\+Bounding\+Boxes}}
+\index{Get\+No\+Bounding\+Boxes@{Get\+No\+Bounding\+Boxes}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Get\+No\+Bounding\+Boxes()}{GetNoBoundingBoxes()}}]{\setlength{\rightskip}{0pt plus 5cm}int Collision\+::\+Get\+No\+Bounding\+Boxes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_affd6aa970fc603b44dab681f551baef1}{}\label{class_collision_affd6aa970fc603b44dab681f551baef1}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_affd6aa970fc603b44dab681f551baef1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_affd6aa970fc603b44dab681f551baef1_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!operator=@{operator=}}
+\index{operator=@{operator=}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{operator=(const Collision \&coll)}{operator=(const Collision &coll)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Collision}\& Collision\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Collision} \&}]{coll}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}\hypertarget{class_collision_a4fe027eb6fa039decbb3712eeedda396}{}\label{class_collision_a4fe027eb6fa039decbb3712eeedda396}
+\index{Collision@{Collision}!Set\+A\+A\+B\+B\+MaxX@{Set\+A\+A\+B\+B\+MaxX}}
+\index{Set\+A\+A\+B\+B\+MaxX@{Set\+A\+A\+B\+B\+MaxX}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+A\+A\+B\+B\+Max\+X(const int \&temp\+Index, const double \&temp\+X)}{SetAABBMaxX(const int &tempIndex, const double &tempX)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+A\+A\+B\+B\+MaxX (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index, }
+\item[{const double \&}]{tempX}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a4a48bb981450043e0acf28a94ba374cc}{}\label{class_collision_a4a48bb981450043e0acf28a94ba374cc}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_collision_a4a48bb981450043e0acf28a94ba374cc_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a4a48bb981450043e0acf28a94ba374cc_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Set\+A\+A\+B\+B\+MaxY@{Set\+A\+A\+B\+B\+MaxY}}
+\index{Set\+A\+A\+B\+B\+MaxY@{Set\+A\+A\+B\+B\+MaxY}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+A\+A\+B\+B\+Max\+Y(const int \&temp\+Index, const double \&temp\+Y)}{SetAABBMaxY(const int &tempIndex, const double &tempY)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+A\+A\+B\+B\+MaxY (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index, }
+\item[{const double \&}]{tempY}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a35e483cf3deffa4be09fed5784fe9b70}{}\label{class_collision_a35e483cf3deffa4be09fed5784fe9b70}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{class_collision_a35e483cf3deffa4be09fed5784fe9b70_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a35e483cf3deffa4be09fed5784fe9b70_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Set\+A\+A\+B\+B\+MaxZ@{Set\+A\+A\+B\+B\+MaxZ}}
+\index{Set\+A\+A\+B\+B\+MaxZ@{Set\+A\+A\+B\+B\+MaxZ}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+A\+A\+B\+B\+Max\+Z(const int \&temp\+Index, const double \&temp\+Z)}{SetAABBMaxZ(const int &tempIndex, const double &tempZ)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+A\+A\+B\+B\+MaxZ (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index, }
+\item[{const double \&}]{tempZ}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a9b6fe54f1dda6499340ac58c5ffb6a77}{}\label{class_collision_a9b6fe54f1dda6499340ac58c5ffb6a77}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_collision_a9b6fe54f1dda6499340ac58c5ffb6a77_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a9b6fe54f1dda6499340ac58c5ffb6a77_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Set\+A\+A\+B\+B\+MinX@{Set\+A\+A\+B\+B\+MinX}}
+\index{Set\+A\+A\+B\+B\+MinX@{Set\+A\+A\+B\+B\+MinX}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+A\+A\+B\+B\+Min\+X(const int \&temp\+Index, const double \&temp\+X)}{SetAABBMinX(const int &tempIndex, const double &tempX)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+A\+A\+B\+B\+MinX (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index, }
+\item[{const double \&}]{tempX}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_ad66b32a512b0960655b5ccdbbf801040}{}\label{class_collision_ad66b32a512b0960655b5ccdbbf801040}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_collision_ad66b32a512b0960655b5ccdbbf801040_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_ad66b32a512b0960655b5ccdbbf801040_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Set\+A\+A\+B\+B\+MinY@{Set\+A\+A\+B\+B\+MinY}}
+\index{Set\+A\+A\+B\+B\+MinY@{Set\+A\+A\+B\+B\+MinY}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+A\+A\+B\+B\+Min\+Y(const int \&temp\+Index, const double \&temp\+Y)}{SetAABBMinY(const int &tempIndex, const double &tempY)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+A\+A\+B\+B\+MinY (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index, }
+\item[{const double \&}]{tempY}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a2fc1f4a0be6b09684b7b79afc943a385}{}\label{class_collision_a2fc1f4a0be6b09684b7b79afc943a385}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_collision_a2fc1f4a0be6b09684b7b79afc943a385_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a2fc1f4a0be6b09684b7b79afc943a385_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Set\+A\+A\+B\+B\+MinZ@{Set\+A\+A\+B\+B\+MinZ}}
+\index{Set\+A\+A\+B\+B\+MinZ@{Set\+A\+A\+B\+B\+MinZ}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+A\+A\+B\+B\+Min\+Z(const int \&temp\+Index, const double \&temp\+Z)}{SetAABBMinZ(const int &tempIndex, const double &tempZ)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+A\+A\+B\+B\+MinZ (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Index, }
+\item[{const double \&}]{tempZ}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_ab77ba9725bc8b756345869e96cfc3228}{}\label{class_collision_ab77ba9725bc8b756345869e96cfc3228}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_ab77ba9725bc8b756345869e96cfc3228_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_ab77ba9725bc8b756345869e96cfc3228_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Set\+No\+Bounding\+Boxes@{Set\+No\+Bounding\+Boxes}}
+\index{Set\+No\+Bounding\+Boxes@{Set\+No\+Bounding\+Boxes}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+No\+Bounding\+Boxes(const int \&temp\+Size)}{SetNoBoundingBoxes(const int &tempSize)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+No\+Bounding\+Boxes (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{temp\+Size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a33c7681e88ca6ab89ae53b6342aed6f2}{}\label{class_collision_a33c7681e88ca6ab89ae53b6342aed6f2}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a33c7681e88ca6ab89ae53b6342aed6f2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a33c7681e88ca6ab89ae53b6342aed6f2_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Set\+WorldX@{Set\+WorldX}}
+\index{Set\+WorldX@{Set\+WorldX}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+World\+X(const double \&temp\+X)}{SetWorldX(const double &tempX)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+WorldX (
+\begin{DoxyParamCaption}
+\item[{const double \&}]{tempX}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_af053c5af75487ad9562a936ec8e6a158}{}\label{class_collision_af053c5af75487ad9562a936ec8e6a158}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_af053c5af75487ad9562a936ec8e6a158_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Collision@{Collision}!Set\+WorldZ@{Set\+WorldZ}}
+\index{Set\+WorldZ@{Set\+WorldZ}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{Set\+World\+Z(const double \&temp\+Z)}{SetWorldZ(const double &tempZ)}}]{\setlength{\rightskip}{0pt plus 5cm}void Collision\+::\+Set\+WorldZ (
+\begin{DoxyParamCaption}
+\item[{const double \&}]{tempZ}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\hypertarget{class_collision_a6f39869c9da8a8860d01b7f8091ea0af}{}\label{class_collision_a6f39869c9da8a8860d01b7f8091ea0af}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_collision_a6f39869c9da8a8860d01b7f8091ea0af_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\index{Collision@{Collision}!m\+\_\+\+A\+A\+BB@{m\+\_\+\+A\+A\+BB}}
+\index{m\+\_\+\+A\+A\+BB@{m\+\_\+\+A\+A\+BB}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{m\+\_\+\+A\+A\+BB}{m_AABB}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+BB} Collision\+::m\+\_\+\+A\+A\+BB\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_collision_a88ee51f46c755e9fde0eaeea3ccc841c}{}\label{class_collision_a88ee51f46c755e9fde0eaeea3ccc841c}
+\index{Collision@{Collision}!m\+\_\+list@{m\+\_\+list}}
+\index{m\+\_\+list@{m\+\_\+list}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{m\+\_\+list}{m_list}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\+A\+B\+B\+Linked\+List} Collision\+::m\+\_\+list\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_collision_ada3810edb7dd64df4afc1d30097385ca}{}\label{class_collision_ada3810edb7dd64df4afc1d30097385ca}
+\index{Collision@{Collision}!m\+\_\+list\+Size@{m\+\_\+list\+Size}}
+\index{m\+\_\+list\+Size@{m\+\_\+list\+Size}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{m\+\_\+list\+Size}{m_listSize}}]{\setlength{\rightskip}{0pt plus 5cm}int Collision\+::m\+\_\+list\+Size\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_collision_a672db5b63f40954a5c7ddc2077dcd0dd}{}\label{class_collision_a672db5b63f40954a5c7ddc2077dcd0dd}
+\index{Collision@{Collision}!m\+\_\+world\+SizeX@{m\+\_\+world\+SizeX}}
+\index{m\+\_\+world\+SizeX@{m\+\_\+world\+SizeX}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{m\+\_\+world\+SizeX}{m_worldSizeX}}]{\setlength{\rightskip}{0pt plus 5cm}double Collision\+::m\+\_\+world\+SizeX\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_collision_a623ab40059b558aee3a4d7ec9f36e584}{}\label{class_collision_a623ab40059b558aee3a4d7ec9f36e584}
+\index{Collision@{Collision}!m\+\_\+world\+SizeZ@{m\+\_\+world\+SizeZ}}
+\index{m\+\_\+world\+SizeZ@{m\+\_\+world\+SizeZ}!Collision@{Collision}}
+\subsubsection[{\texorpdfstring{m\+\_\+world\+SizeZ}{m_worldSizeZ}}]{\setlength{\rightskip}{0pt plus 5cm}double Collision\+::m\+\_\+world\+SizeZ\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_collision_a1a38403384262f9817e46e125e77601b}{}\label{class_collision_a1a38403384262f9817e46e125e77601b}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{collision_8h}{collision.\+h}\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{collision_8cpp}{collision.\+cpp}\end{DoxyCompactItemize}

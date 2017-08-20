@@ -1,0 +1,345 @@
+\hypertarget{class_c_sound_time}{}\section{C\+Sound\+Time Class Reference}
+\label{class_c_sound_time}\index{C\+Sound\+Time@{C\+Sound\+Time}}
+
+
+{\ttfamily \#include $<$Sound\+Time.\+h$>$}
+
+
+
+Collaboration diagram for C\+Sound\+Time\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_c_sound_time__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_sound_time_a62023afd804cc88b62c5e3c252ac34a0}{C\+Sound\+Time} (Uint32 time=(Uint32) 0)
+\item 
+\hyperlink{class_c_sound_time_a2c7d5ed3ab0ca06783843ce011cf1620}{C\+Sound\+Time} (int min, int sec, int ms)
+\item 
+virtual \hyperlink{class_c_sound_time_a642d1ff52e745142940ca9129cc055dd}{$\sim$\+C\+Sound\+Time} ()
+\item 
+Uint32 \hyperlink{class_c_sound_time_a51ef710780c9680f685b39421d605377}{Get\+S\+D\+L\+Time} ()
+\item 
+\hyperlink{class_c_sound_time}{C\+Sound\+Time} \& \hyperlink{class_c_sound_time_aad8532b1cbcd5bd11a868387e096011e}{operator+=} (\hyperlink{class_c_sound_time}{C\+Sound\+Time} $\ast$)
+\item 
+\hyperlink{class_c_sound_time}{C\+Sound\+Time} \& \hyperlink{class_c_sound_time_ad87a113b078f7f943d70332f5a961104}{operator-\/=} (\hyperlink{class_c_sound_time}{C\+Sound\+Time} $\ast$)
+\item 
+\hyperlink{class_c_sound_time}{C\+Sound\+Time} \& \hyperlink{class_c_sound_time_a7d35c9b41af69c5db3505f99a029f0c9}{operator+=} (int)
+\item 
+\hyperlink{class_c_sound_time}{C\+Sound\+Time} \& \hyperlink{class_c_sound_time_a382895ae3c4f835211054afd1d791479}{operator-\/=} (int)
+\item 
+\hyperlink{class_c_sound_time}{C\+Sound\+Time} \& \hyperlink{class_c_sound_time_a7d363df0d4380e275660cfe8a553a604}{operator++} ()
+\item 
+\hyperlink{class_c_sound_time}{C\+Sound\+Time} \& \hyperlink{class_c_sound_time_adb21b0993964903cae5bd427826fd825}{operator-\/-\/} ()
+\item 
+int \hyperlink{class_c_sound_time_ac16e19ca4933f5ca7f316d8c409ca71d}{operator==} (const \hyperlink{class_c_sound_time}{C\+Sound\+Time} \&cst)
+\item 
+void \hyperlink{class_c_sound_time_a6f217edcd34b4c555a15b4eecf9cb324}{add\+Min} (int mins)
+\item 
+void \hyperlink{class_c_sound_time_a75adfe86a4342bf30b86d91d425b5f1d}{add\+Sec} (int seconds)
+\item 
+void \hyperlink{class_c_sound_time_ae85160ad6855d23f0dceb27be8375dd0}{add\+MS} (int milliseconds)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_c_sound_time_abb5d08c723c13e6f7279c20fd09e1d2e}{m\+\_\+minutes}
+\item 
+int \hyperlink{class_c_sound_time_a54970b01c99641895c48a5c358b9c3c7}{m\+\_\+seconds}
+\item 
+int \hyperlink{class_c_sound_time_aba69cd6f3a99395314aef0c4fcd70aef}{m\+\_\+milliseconds}
+\item 
+Uint32 \hyperlink{class_c_sound_time_a99122b938256cded3aeffe92bc8b3715}{m\+\_\+time}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_c_sound_time_a9108b5290ee14fc575b24831fb16ca5e}{operator==} (const \hyperlink{class_c_sound_time}{C\+Sound\+Time} \&cst1, const \hyperlink{class_c_sound_time}{C\+Sound\+Time} \&cst2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+class \hyperlink{class_c_sound_time}{C\+Sound\+Time}\+: The is the time convertion from min\+:sec\+:ms into int value for S\+DL library
+
+\begin{DoxyAuthor}{Author}
+Shannon, Grahan and Shay 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!C\+Sound\+Time@{C\+Sound\+Time}}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{C\+Sound\+Time(\+Uint32 time=(\+Uint32) 0)}{CSoundTime(Uint32 time=(Uint32) 0)}}]{\setlength{\rightskip}{0pt plus 5cm}C\+Sound\+Time\+::\+C\+Sound\+Time (
+\begin{DoxyParamCaption}
+\item[{Uint32}]{time = {\ttfamily (Uint32)0}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_a62023afd804cc88b62c5e3c252ac34a0}{}\label{class_c_sound_time_a62023afd804cc88b62c5e3c252ac34a0}
+\hyperlink{class_c_sound_time}{C\+Sound\+Time}\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!C\+Sound\+Time@{C\+Sound\+Time}}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{C\+Sound\+Time(int min, int sec, int ms)}{CSoundTime(int min, int sec, int ms)}}]{\setlength{\rightskip}{0pt plus 5cm}C\+Sound\+Time\+::\+C\+Sound\+Time (
+\begin{DoxyParamCaption}
+\item[{int}]{min, }
+\item[{int}]{sec, }
+\item[{int}]{ms}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_a2c7d5ed3ab0ca06783843ce011cf1620}{}\label{class_c_sound_time_a2c7d5ed3ab0ca06783843ce011cf1620}
+\hyperlink{class_c_sound_time}{C\+Sound\+Time}\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em min} & \\
+\hline
+{\em sec} & \\
+\hline
+{\em ms} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!````~C\+Sound\+Time@{$\sim$\+C\+Sound\+Time}}
+\index{````~C\+Sound\+Time@{$\sim$\+C\+Sound\+Time}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{$\sim$\+C\+Sound\+Time()}{~CSoundTime()}}]{\setlength{\rightskip}{0pt plus 5cm}C\+Sound\+Time\+::$\sim$\+C\+Sound\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_c_sound_time_a642d1ff52e745142940ca9129cc055dd}{}\label{class_c_sound_time_a642d1ff52e745142940ca9129cc055dd}
+$\sim$\+C\+Sound\+Time\+:
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!add\+Min@{add\+Min}}
+\index{add\+Min@{add\+Min}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{add\+Min(int mins)}{addMin(int mins)}}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Sound\+Time\+::add\+Min (
+\begin{DoxyParamCaption}
+\item[{int}]{mins}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_a6f217edcd34b4c555a15b4eecf9cb324}{}\label{class_c_sound_time_a6f217edcd34b4c555a15b4eecf9cb324}
+add\+Min\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em mins} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!add\+MS@{add\+MS}}
+\index{add\+MS@{add\+MS}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{add\+M\+S(int milliseconds)}{addMS(int milliseconds)}}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Sound\+Time\+::add\+MS (
+\begin{DoxyParamCaption}
+\item[{int}]{milliseconds}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_ae85160ad6855d23f0dceb27be8375dd0}{}\label{class_c_sound_time_ae85160ad6855d23f0dceb27be8375dd0}
+add\+MS\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em milliseconds} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!add\+Sec@{add\+Sec}}
+\index{add\+Sec@{add\+Sec}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{add\+Sec(int seconds)}{addSec(int seconds)}}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Sound\+Time\+::add\+Sec (
+\begin{DoxyParamCaption}
+\item[{int}]{seconds}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_a75adfe86a4342bf30b86d91d425b5f1d}{}\label{class_c_sound_time_a75adfe86a4342bf30b86d91d425b5f1d}
+add\+Sec\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em seconds} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!Get\+S\+D\+L\+Time@{Get\+S\+D\+L\+Time}}
+\index{Get\+S\+D\+L\+Time@{Get\+S\+D\+L\+Time}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{Get\+S\+D\+L\+Time()}{GetSDLTime()}}]{\setlength{\rightskip}{0pt plus 5cm}Uint32 C\+Sound\+Time\+::\+Get\+S\+D\+L\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_a51ef710780c9680f685b39421d605377}{}\label{class_c_sound_time_a51ef710780c9680f685b39421d605377}
+Get\+S\+D\+L\+Time\+:
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_c_sound_time_a51ef710780c9680f685b39421d605377_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{C\+Sound\+Time@{C\+Sound\+Time}!operator++@{operator++}}
+\index{operator++@{operator++}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{operator++()}{operator++()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Sound\+Time} \& C\+Sound\+Time\+::operator++ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_a7d363df0d4380e275660cfe8a553a604}{}\label{class_c_sound_time_a7d363df0d4380e275660cfe8a553a604}
+operator++\+:
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_c_sound_time}{C\+Sound\+Time}\& 
+\end{DoxyReturn}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{operator+=(\+C\+Sound\+Time $\ast$)}{operator+=(CSoundTime *)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Sound\+Time} \& C\+Sound\+Time\+::operator+= (
+\begin{DoxyParamCaption}
+\item[{{\bf C\+Sound\+Time} $\ast$}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_aad8532b1cbcd5bd11a868387e096011e}{}\label{class_c_sound_time_aad8532b1cbcd5bd11a868387e096011e}
+operator+=\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{operator+=(int)}{operator+=(int)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Sound\+Time} \& C\+Sound\+Time\+::operator+= (
+\begin{DoxyParamCaption}
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_a7d35c9b41af69c5db3505f99a029f0c9}{}\label{class_c_sound_time_a7d35c9b41af69c5db3505f99a029f0c9}
+operator+=\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{operator-\/-\/()}{operator--()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Sound\+Time} \& C\+Sound\+Time\+::operator-\/-\/ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_adb21b0993964903cae5bd427826fd825}{}\label{class_c_sound_time_adb21b0993964903cae5bd427826fd825}
+operator-\/-\/\+:
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_c_sound_time}{C\+Sound\+Time}\& 
+\end{DoxyReturn}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{operator-\/=(\+C\+Sound\+Time $\ast$)}{operator-=(CSoundTime *)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Sound\+Time} \& C\+Sound\+Time\+::operator-\/= (
+\begin{DoxyParamCaption}
+\item[{{\bf C\+Sound\+Time} $\ast$}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_ad87a113b078f7f943d70332f5a961104}{}\label{class_c_sound_time_ad87a113b078f7f943d70332f5a961104}
+operator-\/=\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{operator-\/=(int)}{operator-=(int)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\+Sound\+Time} \& C\+Sound\+Time\+::operator-\/= (
+\begin{DoxyParamCaption}
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_a382895ae3c4f835211054afd1d791479}{}\label{class_c_sound_time_a382895ae3c4f835211054afd1d791479}
+operator-\/=\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!operator==@{operator==}}
+\index{operator==@{operator==}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{operator==(const C\+Sound\+Time \&cst)}{operator==(const CSoundTime &cst)}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Sound\+Time\+::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf C\+Sound\+Time} \&}]{cst}
+\end{DoxyParamCaption}
+)}\hypertarget{class_c_sound_time_ac16e19ca4933f5ca7f316d8c409ca71d}{}\label{class_c_sound_time_ac16e19ca4933f5ca7f316d8c409ca71d}
+operator==\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em cst} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+\subsection{Friends And Related Function Documentation}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!operator==@{operator==}}
+\index{operator==@{operator==}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{operator==}{operator==}}]{\setlength{\rightskip}{0pt plus 5cm}int operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf C\+Sound\+Time} \&}]{cst1, }
+\item[{const {\bf C\+Sound\+Time} \&}]{cst2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}\hypertarget{class_c_sound_time_a9108b5290ee14fc575b24831fb16ca5e}{}\label{class_c_sound_time_a9108b5290ee14fc575b24831fb16ca5e}
+friend operator==\+:
+
+
+\begin{DoxyParams}{Parameters}
+{\em cst1} & \\
+\hline
+{\em cst2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\index{C\+Sound\+Time@{C\+Sound\+Time}!m\+\_\+milliseconds@{m\+\_\+milliseconds}}
+\index{m\+\_\+milliseconds@{m\+\_\+milliseconds}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{m\+\_\+milliseconds}{m_milliseconds}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Sound\+Time\+::m\+\_\+milliseconds\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_c_sound_time_aba69cd6f3a99395314aef0c4fcd70aef}{}\label{class_c_sound_time_aba69cd6f3a99395314aef0c4fcd70aef}
+m\+\_\+milliseconds\+: \index{C\+Sound\+Time@{C\+Sound\+Time}!m\+\_\+minutes@{m\+\_\+minutes}}
+\index{m\+\_\+minutes@{m\+\_\+minutes}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{m\+\_\+minutes}{m_minutes}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Sound\+Time\+::m\+\_\+minutes\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_c_sound_time_abb5d08c723c13e6f7279c20fd09e1d2e}{}\label{class_c_sound_time_abb5d08c723c13e6f7279c20fd09e1d2e}
+m\+\_\+minutes\+: \index{C\+Sound\+Time@{C\+Sound\+Time}!m\+\_\+seconds@{m\+\_\+seconds}}
+\index{m\+\_\+seconds@{m\+\_\+seconds}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{m\+\_\+seconds}{m_seconds}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Sound\+Time\+::m\+\_\+seconds\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_c_sound_time_a54970b01c99641895c48a5c358b9c3c7}{}\label{class_c_sound_time_a54970b01c99641895c48a5c358b9c3c7}
+m\+\_\+seconds\+: \index{C\+Sound\+Time@{C\+Sound\+Time}!m\+\_\+time@{m\+\_\+time}}
+\index{m\+\_\+time@{m\+\_\+time}!C\+Sound\+Time@{C\+Sound\+Time}}
+\subsubsection[{\texorpdfstring{m\+\_\+time}{m_time}}]{\setlength{\rightskip}{0pt plus 5cm}Uint32 C\+Sound\+Time\+::m\+\_\+time\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_c_sound_time_a99122b938256cded3aeffe92bc8b3715}{}\label{class_c_sound_time_a99122b938256cded3aeffe92bc8b3715}
+m\+\_\+time\+: 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{_sound_time_8h}{Sound\+Time.\+h}\item 
+C\+:/000\+Uniwork/\+I\+C\+T290 Games Programming Try 2/\+Exercise 1/\+C\+A\+M\+P\+U\+S T\+O\+U\+R/\hyperlink{_sound_time_8cpp}{Sound\+Time.\+cpp}\end{DoxyCompactItemize}

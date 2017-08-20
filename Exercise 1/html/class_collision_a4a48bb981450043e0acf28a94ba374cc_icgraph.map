@@ -1,0 +1,6 @@
+<map id="Collision::SetAABBMaxX" name="Collision::SetAABBMaxX">
+<area shape="rect" id="node2" href="$class_camera.html#a57b68a39284d0c249676a3dba70bac05" title="Camera::SetAABBMaxX" alt="" coords="220,5,383,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a1f83a4237959eaf436a6ceac26003892" title="CreateBoundingBoxes" alt="" coords="431,5,581,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a8264fa9a7444ab4805520c3d018b6623" title="myinit" alt="" coords="629,5,687,32"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="735,5,785,32"/>
+</map>

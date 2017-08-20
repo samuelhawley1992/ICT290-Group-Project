@@ -1,0 +1,7 @@
+<map id="Camera::SetNoBoundingBoxes" name="Camera::SetNoBoundingBoxes">
+<area shape="rect" id="node2" href="$class_collision.html#a33c7681e88ca6ab89ae53b6342aed6f2" title="Collision::SetNoBounding\lBoxes" alt="" coords="271,5,440,47"/>
+<area shape="rect" id="node4" href="$class_camera.html#a32f72b80b7aaf7a1623dc68239bd446b" title="Camera::SetWorldCoordinates" alt="" coords="256,71,455,98"/>
+<area shape="rect" id="node3" href="$class_a_a_b_b.html#a4bbff0661c754b621c4b6bfc89bcf051" title="AABB::SetNoBoundingBoxes" alt="" coords="503,13,696,39"/>
+<area shape="rect" id="node5" href="$class_collision.html#af053c5af75487ad9562a936ec8e6a158" title="Collision::SetWorldX" alt="" coords="529,67,669,94"/>
+<area shape="rect" id="node6" href="$class_collision.html#a6f39869c9da8a8860d01b7f8091ea0af" title="Collision::SetWorldZ" alt="" coords="529,118,669,145"/>
+</map>
