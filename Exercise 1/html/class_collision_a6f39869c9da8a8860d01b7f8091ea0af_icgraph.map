@@ -1,6 +1,0 @@
-<map id="Collision::SetWorldZ" name="Collision::SetWorldZ">
-<area shape="rect" id="node2" href="$class_camera.html#a32f72b80b7aaf7a1623dc68239bd446b" title="Camera::SetWorldCoordinates" alt="" coords="193,31,392,57"/>
-<area shape="rect" id="node3" href="$class_camera.html#a043549232a16c18fe93f35c5d3a40fe2" title="Camera::SetNoBoundingBoxes" alt="" coords="440,5,643,32"/>
-<area shape="rect" id="node4" href="$main_8cpp.html#a8264fa9a7444ab4805520c3d018b6623" title="myinit" alt="" coords="691,31,748,57"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="796,31,847,57"/>
-</map>

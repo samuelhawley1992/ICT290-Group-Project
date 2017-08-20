@@ -1,7 +1,0 @@
-<map id="CreatePlains" name="CreatePlains">
-<area shape="rect" id="node2" href="$class_camera.html#a5b5c1468bdb3b8e6e654bea66c9561b8" title="Camera::SetPlains" alt="" coords="149,22,280,49"/>
-<area shape="rect" id="node3" href="$class_plain_linked_list.html#a4d9d62421c215a3c9e2c9ef0833b84a1" title="PlainLinkedList::AddToStart" alt="" coords="328,22,511,49"/>
-<area shape="rect" id="node4" href="$class_plain_node.html#a566db8fc78c8b4dea13373f908a53577" title="PlainNode::SetData" alt="" coords="744,22,880,49"/>
-<area shape="rect" id="node5" href="$class_plain_node.html#afe5be77c2dfbf7447105f0ea722e77f1" title="PlainNode::SetNext" alt="" coords="559,22,695,49"/>
-<area shape="rect" id="node6" href="$class_plain_node.html#a34f55330c3e261b76b9086fec5928386" title="PlainNode::GetNext" alt="" coords="559,73,696,99"/>
-</map>

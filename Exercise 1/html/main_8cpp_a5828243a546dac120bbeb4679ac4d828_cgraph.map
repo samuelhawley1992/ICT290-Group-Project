@@ -1,6 +1,0 @@
-<map id="keys" name="keys">
-<area shape="rect" id="node2" href="$class_camera.html#a11f6493139834cc9d31a1c28e5effa1a" title="Camera::DirectionLR" alt="" coords="119,5,261,32"/>
-<area shape="rect" id="node3" href="$class_camera.html#a7271df5741bcbe72f464729f8d80ad43" title="Camera::DirectionLookUD" alt="" coords="104,56,276,83"/>
-<area shape="rect" id="node4" href="$class_camera.html#af1b56a7aee4d2b0c38054e05c0553e51" title="Camera::SetRotateSpeed" alt="" coords="105,107,275,133"/>
-<area shape="rect" id="node5" href="$class_camera.html#a86a5a6f374125bb58c6a97ba2d921a64" title="Camera::SetMoveSpeed" alt="" coords="109,157,271,184"/>
-</map>

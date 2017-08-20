@@ -1,6 +1,0 @@
-<map id="Camera::MoveUD" name="Camera::MoveUD">
-<area shape="rect" id="node2" href="$class_collision.html#a0b97a69bc20aeecc04e5c4359e675af7" title="Collision::Collide" alt="" coords="193,31,312,57"/>
-<area shape="rect" id="node5" href="$class_camera.html#a023cb3e9d92301d8132f338c7ef5be77" title="Camera::callGLLookAt" alt="" coords="176,81,329,108"/>
-<area shape="rect" id="node3" href="$class_collision.html#aa2f957eb7ad08fb81e993e6a55c2d5c0" title="Collision::CheckCollision" alt="" coords="377,5,543,32"/>
-<area shape="rect" id="node4" href="$class_collision.html#aea8004fbf48b79b5db7b784688b23788" title="Collision::Collision" alt="" coords="396,56,524,83"/>
-</map>

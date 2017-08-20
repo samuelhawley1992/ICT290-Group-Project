@@ -1,6 +1,0 @@
-<map id="Camera::DisplayWelcomeScreen" name="Camera::DisplayWelcomeScreen">
-<area shape="rect" id="node2" href="$class_camera.html#a333f233675f83907a0f8a8e3274865fe" title="Camera::GetAABBMinZ" alt="" coords="268,5,428,32"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a5d3fb9b91b5c167b70a1a0557e67f271" title="Display" alt="" coords="315,56,381,83"/>
-<area shape="rect" id="node4" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="496,31,547,57"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#ad98e38d016ad1258ee8592beffa21c93" title="mouseMove" alt="" coords="476,81,567,108"/>
-</map>

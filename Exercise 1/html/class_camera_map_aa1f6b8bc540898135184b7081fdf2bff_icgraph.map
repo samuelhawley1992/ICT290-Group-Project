@@ -1,8 +1,0 @@
-<map id="CameraMap::DisplayWelcomeScreen" name="CameraMap::DisplayWelcomeScreen">
-<area shape="rect" id="node2" href="$class_camera.html#ab8084e679b9cf9bf9a6e333ca8a0caee" title="Camera::DisplayWelcomeScreen" alt="" coords="252,31,467,57"/>
-<area shape="rect" id="node7" href="$class_camera_map.html#a033fac41221eaa5f74b60e92642c96c3" title="CameraMap::~CameraMap" alt="" coords="270,81,449,108"/>
-<area shape="rect" id="node3" href="$class_camera.html#a333f233675f83907a0f8a8e3274865fe" title="Camera::GetAABBMinZ" alt="" coords="515,5,675,32"/>
-<area shape="rect" id="node4" href="$main_8cpp.html#a5d3fb9b91b5c167b70a1a0557e67f271" title="Display" alt="" coords="562,56,627,83"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="743,31,793,57"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#ad98e38d016ad1258ee8592beffa21c93" title="mouseMove" alt="" coords="723,81,813,108"/>
-</map>

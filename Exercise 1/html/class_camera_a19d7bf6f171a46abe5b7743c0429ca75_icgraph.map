@@ -1,7 +1,0 @@
-<map id="Camera::DirectionFB" name="Camera::DirectionFB">
-<area shape="rect" id="node2" href="$class_camera.html#ae1798d33c0a7379dc227cc18dc767732" title="Camera::ClimbSteps" alt="" coords="205,5,347,32"/>
-<area shape="rect" id="node3" href="$class_camera.html#a333f233675f83907a0f8a8e3274865fe" title="Camera::GetAABBMinZ" alt="" coords="196,56,356,83"/>
-<area shape="rect" id="node4" href="$main_8cpp.html#a095e2fbdd5922031684bbcdb434dd4d1" title="movementKeys" alt="" coords="221,107,331,133"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#acd0be7034feaba24b1c4956202907666" title="releaseKey" alt="" coords="233,157,319,184"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="404,132,455,159"/>
-</map>

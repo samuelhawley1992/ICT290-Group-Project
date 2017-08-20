@@ -1,1 +1,0 @@
-to open the project select 'houses'. The one that is a VC++ project (not a VCC++ 6 project)

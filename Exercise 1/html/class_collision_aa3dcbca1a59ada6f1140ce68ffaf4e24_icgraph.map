@@ -1,8 +1,0 @@
-<map id="Collision::GetAABBMaxY" name="Collision::GetAABBMaxY">
-<area shape="rect" id="node2" href="$class_camera.html#a65002f8d31f7d541284126550e033c12" title="Camera::GetAABBMaxY" alt="" coords="229,27,395,54"/>
-<area shape="rect" id="node3" href="$class_collision.html#a30554164f1f1501dc707bcec81e3fd34" title="Collision::CreateLinkedList" alt="" coords="224,78,400,105"/>
-<area shape="rect" id="node4" href="$class_camera.html#af39ed792820436b916a4d6110413423f" title="Camera::InitiateBounding\lBoxes" alt="" coords="450,5,617,47"/>
-<area shape="rect" id="node7" href="$class_collision.html#affd6aa970fc603b44dab681f551baef1" title="Collision::GetNoBounding\lBoxes" alt="" coords="448,71,619,112"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#a8264fa9a7444ab4805520c3d018b6623" title="myinit" alt="" coords="667,13,724,39"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="772,13,823,39"/>
-</map>

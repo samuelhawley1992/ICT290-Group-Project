@@ -1,7 +1,0 @@
-<map id="AABB::SetMaxZ" name="AABB::SetMaxZ">
-<area shape="rect" id="node2" href="$class_collision.html#a9b6fe54f1dda6499340ac58c5ffb6a77" title="Collision::SetAABBMaxZ" alt="" coords="172,5,339,32"/>
-<area shape="rect" id="node3" href="$class_camera.html#aaf211279f0439d31fa1d885f1a630db9" title="Camera::SetAABBMaxZ" alt="" coords="387,5,549,32"/>
-<area shape="rect" id="node4" href="$main_8cpp.html#a1f83a4237959eaf436a6ceac26003892" title="CreateBoundingBoxes" alt="" coords="597,5,748,32"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#a8264fa9a7444ab4805520c3d018b6623" title="myinit" alt="" coords="796,5,853,32"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="901,5,952,32"/>
-</map>

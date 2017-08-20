@@ -1,9 +1,0 @@
-<map id="AABB::GetMinY" name="AABB::GetMinY">
-<area shape="rect" id="node2" href="$class_collision.html#a3e246319658fd5a998798ca6b31d3928" title="Collision::GetAABBMinY" alt="" coords="171,53,337,79"/>
-<area shape="rect" id="node3" href="$class_camera.html#adcd706fee322ada843a3ac753aa69549" title="Camera::GetAABBMinY" alt="" coords="392,27,555,54"/>
-<area shape="rect" id="node4" href="$class_collision.html#a30554164f1f1501dc707bcec81e3fd34" title="Collision::CreateLinkedList" alt="" coords="385,78,561,105"/>
-<area shape="rect" id="node5" href="$class_camera.html#af39ed792820436b916a4d6110413423f" title="Camera::InitiateBounding\lBoxes" alt="" coords="611,5,778,47"/>
-<area shape="rect" id="node8" href="$class_collision.html#affd6aa970fc603b44dab681f551baef1" title="Collision::GetNoBounding\lBoxes" alt="" coords="609,71,780,112"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#a8264fa9a7444ab4805520c3d018b6623" title="myinit" alt="" coords="828,13,885,39"/>
-<area shape="rect" id="node7" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="933,13,984,39"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="CEasySound::Instance" name="CEasySound::Instance">
-<area shape="rect" id="node2" href="$class_camera.html#a01f94c3543f56ede7af49dc778f19331" title="Camera::Camera" alt="" coords="208,5,328,32"/>
-<area shape="rect" id="node3" href="$_easy_sound_8h.html#acb5aef18dcd112d5e47c746978b6df4d" title="mixaudio" alt="" coords="231,56,305,83"/>
-<area shape="rect" id="node6" href="$class_c_sound.html#a57c4b63acfa422461526dee33fc317d8" title="CSound::CSound" alt="" coords="833,132,956,159"/>
-<area shape="rect" id="node4" href="$class_c_easy_sound.html#a4a18c7ef207c8a00470c19f07044f8b6" title="CEasySound::CEasySound" alt="" coords="376,107,559,133"/>
-<area shape="rect" id="node5" href="$class_c_easy_sound.html#a1d5a81eee0c6f787890375f3bc3ec37e" title="CEasySound::GetObtained" alt="" coords="607,107,785,133"/>
-</map>

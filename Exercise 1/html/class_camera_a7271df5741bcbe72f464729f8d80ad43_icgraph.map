@@ -1,7 +1,0 @@
-<map id="Camera::DirectionLookUD" name="Camera::DirectionLookUD">
-<area shape="rect" id="node2" href="$class_camera.html#a333f233675f83907a0f8a8e3274865fe" title="Camera::GetAABBMinZ" alt="" coords="225,5,385,32"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a5828243a546dac120bbeb4679ac4d828" title="keys" alt="" coords="280,56,331,83"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#afe803587002217240c9f183634c9aba9" title="releaseKeys" alt="" coords="258,107,353,133"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#ad98e38d016ad1258ee8592beffa21c93" title="mouseMove" alt="" coords="260,157,351,184"/>
-<area shape="rect" id="node4" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="433,81,484,108"/>
-</map>

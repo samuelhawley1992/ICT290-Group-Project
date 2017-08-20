@@ -1,7 +1,0 @@
-<map id="Camera::DirectionRotateLR" name="Camera::DirectionRotateLR">
-<area shape="rect" id="node2" href="$class_camera.html#a333f233675f83907a0f8a8e3274865fe" title="Camera::GetAABBMinZ" alt="" coords="233,5,393,32"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a095e2fbdd5922031684bbcdb434dd4d1" title="movementKeys" alt="" coords="258,56,369,83"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#acd0be7034feaba24b1c4956202907666" title="releaseKey" alt="" coords="270,107,357,133"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#ad98e38d016ad1258ee8592beffa21c93" title="mouseMove" alt="" coords="268,157,359,184"/>
-<area shape="rect" id="node4" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="441,81,492,108"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="AABB::ClearBB" name="AABB::ClearBB">
-<area shape="rect" id="node2" href="$class_a_a_b_b.html#a1c8a263cbd356446535e88b521eab3d5" title="AABB::~AABB" alt="" coords="168,78,279,105"/>
-<area shape="rect" id="node3" href="$class_collision.html#a30554164f1f1501dc707bcec81e3fd34" title="Collision::CreateLinkedList" alt="" coords="327,78,503,105"/>
-<area shape="rect" id="node4" href="$class_camera.html#af39ed792820436b916a4d6110413423f" title="Camera::InitiateBounding\lBoxes" alt="" coords="553,5,719,47"/>
-<area shape="rect" id="node7" href="$class_collision.html#affd6aa970fc603b44dab681f551baef1" title="Collision::GetNoBounding\lBoxes" alt="" coords="551,71,721,112"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#a8264fa9a7444ab4805520c3d018b6623" title="myinit" alt="" coords="769,13,827,39"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="875,13,925,39"/>
-</map>

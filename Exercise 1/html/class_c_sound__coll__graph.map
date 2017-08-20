@@ -1,3 +1,0 @@
-<map id="CSound" name="CSound">
-<area shape="rect" id="node3" href="$class_c_sound_time.html" title="{CSoundTime\n||+ CSoundTime()\l+ CSoundTime()\l+ ~CSoundTime()\l+ GetSDLTime()\l+ operator+=()\l+ operator&#45;=()\l+ operator+=()\l+ operator&#45;=()\l+ operator++()\l+ operator&#45;&#45;()\l+ operator==()\l+ addMin()\l+ addSec()\l+ addMS()\l}" alt="" coords="91,175,215,443"/>
-</map>
