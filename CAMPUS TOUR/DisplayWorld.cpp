@@ -1,9 +1,9 @@
 #include"DisplayWorld.h"
 
-bool Display::DrawWorld()
+bool Display::drawWorld()
 {
 
 
-
+	return true;
 
 }
