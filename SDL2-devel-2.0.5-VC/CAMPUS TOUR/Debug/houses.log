@@ -1,4 +1,2 @@
-﻿  DisplayWorld.cpp
-  LINK : .\Debug\houses.exe not found or not built by the last incremental link; performing full link
-  houses.vcxproj -> C:\Users\chris\Documents\GitHub\ICT290-Group-Project\CAMPUS TOUR\.\Debug\houses.exe
+﻿  houses.vcxproj -> C:\Users\chris\Documents\GitHub\ICT290-Group-Project\SDL2-devel-2.0.5-VC\CAMPUS TOUR\.\Debug\houses.exe
   houses.vcxproj -> .\Debug\houses.pdb (Full PDB)
