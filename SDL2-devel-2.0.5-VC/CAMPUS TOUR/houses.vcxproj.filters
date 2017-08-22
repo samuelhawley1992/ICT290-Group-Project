@@ -95,10 +95,10 @@
     <ClInclude Include="texturedPolygons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DisplayWorld.h">
+    <ClInclude Include="DefineList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DefineList.h">
+    <ClInclude Include="DisplayWorld.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

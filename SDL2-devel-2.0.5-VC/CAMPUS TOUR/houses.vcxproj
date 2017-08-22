@@ -44,8 +44,8 @@
     <OutDir>.\Debug\</OutDir>
     <IntDir>.\Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)\SDL2-devel-2.0.5-VC\CAMPUS TOUR\freeglut-2.8.1\include\GL;$(ProjectDir)\SDL2-devel-2.0.5-VC\CAMPUS TOUR\SDL2-2.0.5\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\SDL2-devel-2.0.5-VC\CAMPUS TOUR\SDL2-2.0.5\lib\x86;$(ProjectDir)\SDL2-devel-2.0.5-VC\CAMPUS TOUR\freeglut-2.8.1\lib\x86\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\freeglut-2.8.1\include\GL;$(ProjectDir)\SDL2-2.0.5\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\SDL2-2.0.5\lib\x86;$(ProjectDir)\freeglut-2.8.1\lib\x86\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\Release\</OutDir>

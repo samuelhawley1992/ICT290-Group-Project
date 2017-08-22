@@ -1,5 +1,5 @@
-#ifndef DISPLAY_H
-#define DISPLAY_H
+#ifndef DISPLAYWORLD_H
+#define DISPLAYWORLD_H
 
 
 #include<stdlib.h>
@@ -12,20 +12,34 @@
 //#include <windows.h> // only used if mouse is required (not portable)
 #include "camera.h"
 #include "texturedPolygons.h"
+#include"DefineList.h"
 
 
 
-class Display {
+class DisplayWorld {
 
 public:
-	bool displayWorld();
+	// calls display functions below to draw the backdrops
+	 bool RenderWorld(bool lightsOn);
 
-	bool drawWorld();
+	// calls functions to create display lists (below)
+	bool DrawWorld();
+
+	
+	void deleteImageFromMemory();
+
+	GLuint getWelcomeTex();
+
+	GLuint getExitTex();
+
+	GLuint getNoExitTex();
+
+	GLuint getMapTex();
 
 private:
 
-	// calls display functions below to draw the backdrops
-	void DrawBackdrop();
+	// deletes image and clears memory
+	void deleteTempImageFromMemory(unsigned char* tempImage);
 	// functions to display display lists (images) and bind them to a texture
 	void DisplayAboveWindowBlock();
 	void DisplayBench();
@@ -49,8 +63,7 @@ private:
 	void DisplayLights();
 	void DisplayECL();
 
-	// calls functions to create display lists (below)
-	void CreateTextureList();
+	
 	// creates display lists
 	void DrawGrass();
 	void DrawChancPosts();
@@ -76,6 +89,17 @@ private:
 	void DrawStepBricks();
 	void DrawMapExit();
 	void DrawECL();
+
+	void CreateTextures();
+
+	TexturedPolygons tp;
+	// varibles used for tarnslating graphics etc
+	GLdouble step, step2, stepLength;
+	// Glut Cylinder
+	GLUquadricObj *glu_cylinder;
+	// Stores raw image file
+	unsigned char* image = NULL;
+
 
 };
 
